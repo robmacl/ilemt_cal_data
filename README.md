@@ -1,1 +1,2 @@
 # ilemt_cal_data
+Calibration data, calibration outputs, and test results for ILEMT calibrations.  This is used with the Matlab calibration and test code in the "ilemt" repository.  See https://github.com/robmacl/ilemt_hw/wiki for ILEMT project background.
