@@ -1,0 +1,58 @@
+________________________________________________________________
+Test start:    11-Aug-2021 16:57:33
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_5_28_premo_rotated_dipole
+             cal_file: '../cal_5_25_premo_rotated_dipole/XYZ_hr_cal'
+              variant: 'default'
+             in_files: {1×3 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+    optimize_fixtures: {'stage'  'sensor'}
+Optimizing fixture poses:
+    {'stage'}    {'sensor'}
+source_fix_delta =
+     0     0     0     0     0     0
+stage_fix_delta =
+   0.00013245  -0.00038231   0.00026642    0.0017478   0.00080441    8.399e-05
+sensor_fix_delta =
+  -9.3996e-05   2.0272e-05   -0.0001246   0.00049189   0.00016962   6.7883e-05
+Position error (m): 2.28e-04 RMS, 4.94e-04 max.
+Orientation error (radians): 5.31e-03 RMS, 1.10e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_5_28_premo_rotated_dipole
+             cal_file: '../cal_5_25_premo_rotated_dipole/XYZ_hr_cal'
+              variant: 'nocorrect'
+             in_files: {1×3 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+    optimize_fixtures: {'stage'  'sensor'}
+Optimizing fixture poses:
+    {'stage'}    {'sensor'}
+source_fix_delta =
+     0     0     0     0     0     0
+stage_fix_delta =
+   0.00013727  -0.00034449   0.00031728    0.0012416   0.00036209   0.00056413
+sensor_fix_delta =
+  -9.3922e-05   2.0159e-05   -0.0001241   0.00046011   0.00051105  -0.00038519
+Position error (m): 3.10e-04 RMS, 8.42e-04 max.
+Orientation error (radians): 5.38e-03 RMS, 1.07e-02 max
+
+trans_rms:
+                                                    <strong>default</strong>      <strong>nocorrect</strong> 
+                                                   <strong>__________</strong>    <strong>__________</strong>
+    <strong>../cal_5_25_premo_rotated_dipole/XYZ_hr_cal</strong>    0.00022769    0.00030954
+
+trans_max:
+                                                    <strong>default</strong>      <strong>nocorrect</strong> 
+                                                   <strong>__________</strong>    <strong>__________</strong>
+    <strong>../cal_5_25_premo_rotated_dipole/XYZ_hr_cal</strong>    0.00049443    0.00084183
+
+rot_rms:
+                                                    <strong>default</strong>     <strong>nocorrect</strong>
+                                                   <strong>_________</strong>    <strong>_________</strong>
+    <strong>../cal_5_25_premo_rotated_dipole/XYZ_hr_cal</strong>    0.0053111    0.0053796
+
+rot_max:
+                                                   <strong>default</strong>     <strong>nocorrect</strong>
+                                                   <strong>________</strong>    <strong>_________</strong>
+    <strong>../cal_5_25_premo_rotated_dipole/XYZ_hr_cal</strong>    0.010998    0.010745 

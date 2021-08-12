@@ -1,0 +1,754 @@
+________________________________________________________________
+Test start:    11-Aug-2021 17:11:32
+
+Calibrating from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+                source: 'dipole'
+                sensor: 'premo'
+              cal_mode: 'XYZ'
+      base_calibration: 'base_calibration'
+                ishigh: 1
+             normalize: 1
+        pin_quadrupole: 1
+            concentric: 1
+          correct_mode: 'DLT'
+    reoptimize_fixture: 0
+          sensor_signs: [1 1 1]
+          source_signs: [1 1 1]
+       sensor_fixtures: {'seYoutZup'  'seZinYup'  'seZinXdown'}
+       source_fixtures: {'soYoutZup'}
+         data_patterns: {'md'}
+              in_files: {1×3 cell}
+              out_file: 'XYZ_concentric_hr_cal'
+              optimize: {'d_se_mo'  'd_so_mo'  'se_fix'  'st_fix'}
+                freeze: {'d_so_z_gain'  'd_so_y_co'  'd_se_y_co'}
+            iterations: 50
+     optimoptions_opts: {}
+               verbose: 1
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0         24         107.642                           831
+     1         48         5.73662       0.986288            134      
+     2         72         3.97664       0.138544            192      
+     3         96          3.4589      0.0191735           5.44      
+     4        120         3.45839     0.00249301         0.0671      
+     5        144         3.45839    0.000201602        0.00538      
+     6        168         3.45839    2.01703e-05        0.00037      
+
+Optimization stopped because the relative sum of squares (r) is changing
+by less than <a href = "matlab: helpview('optim','tolfun_lsq','CSHelpWindow');">options.FunctionTolerance</a> = 1.000000e-08.
+
+
+Calibration result:
+    d_source_pos            d_source_moment             d_sensor_pos                d_sensor_moment            
+    ____________    ________________________________    ____________    _______________________________________
+    0    0    0       1.4836    -0.24758           0    0    0    0       0.10583    -3.0685e-05              0
+    0    0    0            0     0.76321           0    0    0    0             0        0.10511              0
+    0    0    0     -0.70626    0.029838           1    0    0    0     0.0015021      0.0025704        0.10846
+Source fix: [0.00381 0.00333 -0.00605 0.00969 0.00974 -1.59302 ]
+Stage fix: [-0.00876 0.21018 -0.00925 -0.22000 -0.00454 0.09561 ]
+Sensor fix: [-0.00029 0.00035 -0.00009 -2.19837 -2.23221 -0.00914 ]
+RMS/point residue 0.0901015, sum square 3.45839.
+Wrote XYZ_concentric_hr_cal
+
+Calibrating from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+                source: 'dipole'
+                sensor: 'premo'
+              cal_mode: 'XYZ_all'
+      base_calibration: 'XYZ_concentric_hr_cal'
+                ishigh: 1
+             normalize: 1
+        pin_quadrupole: 1
+            concentric: 1
+          correct_mode: 'DLT'
+    reoptimize_fixture: 0
+          sensor_signs: [1 1 1]
+          source_signs: [1 1 1]
+       sensor_fixtures: {'seYoutZup'  'seZinYup'  'seZinXdown'}
+       source_fixtures: {'soYoutZup'  'soXoutZup'  'soZoutYup'  'soXinYup'}
+         data_patterns: {'md'  'source'}
+              in_files: {1×7 cell}
+              out_file: 'XYZ_all_concentric_hr_cal'
+              optimize: {'d_se_mo'  'd_so_mo'  'se_fix'  'so_fix'  'st_fix'}
+                freeze: {'d_so_z_gain'  'd_so_y_co'  'd_se_y_co'}
+            iterations: 50
+     optimoptions_opts: {}
+               verbose: 1
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0         30         221.764                      4.09e+03
+     1         60         72.9263        0.69304            775      
+     2         90         57.8812       0.209158            259      
+     3        120         56.7771      0.0740758           21.3      
+     4        150         56.7377      0.0300594           6.89      
+     5        180         56.7328      0.0118123           1.51      
+     6        210          56.732     0.00580785           1.02      
+     7        240         56.7318     0.00252014          0.333      
+     8        270         56.7318      0.0011915          0.193      
+     9        300         56.7318      0.0005376         0.0794      
+    10        330         56.7318    0.000250323         0.0398      
+    11        360         56.7318    0.000114528         0.0176      
+
+Optimization stopped because the relative sum of squares (r) is changing
+by less than <a href = "matlab: helpview('optim','tolfun_lsq','CSHelpWindow');">options.FunctionTolerance</a> = 1.000000e-08.
+
+
+Calibration result:
+    d_source_pos             d_source_moment              d_sensor_pos                 d_sensor_moment             
+    ____________    __________________________________    ____________    _________________________________________
+    0    0    0       1.1755       -0.076            0    0    0    0         0.15533     -0.0024459              0
+    0    0    0            0      0.77355            0    0    0    0               0         0.1481              0
+    0    0    0     -0.31149    -0.024988            1    0    0    0     -0.00055585      0.0060781        0.15148
+Source fix: [-0.01905 -0.01450 0.00962 -0.01356 0.15896 -1.52307 ]
+Stage fix: [0.02995 0.24151 0.00862 -0.12307 0.00422 -0.18771 ]
+Sensor fix: [0.00093 0.00001 -0.00040 -2.21336 -2.24939 -0.03098 ]
+RMS/point residue 0.277259, sum square 56.7318.
+Wrote XYZ_all_concentric_hr_cal
+
+Calibrating from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+                source: 'dipole'
+                sensor: 'premo'
+              cal_mode: 'XYZ'
+      base_calibration: 'base_calibration'
+                ishigh: 1
+             normalize: 1
+        pin_quadrupole: 1
+            concentric: 0
+          correct_mode: 'DLT'
+    reoptimize_fixture: 0
+          sensor_signs: [1 1 1]
+          source_signs: [1 1 1]
+       sensor_fixtures: {'seYoutZup'  'seZinYup'  'seZinXdown'}
+       source_fixtures: {'soYoutZup'}
+         data_patterns: {'md'}
+              in_files: {1×3 cell}
+              out_file: 'XYZ_hr_cal'
+              optimize: {'d_so_pos'  'd_so_mo'  'd_se_pos'  'd_se_mo'  'st_fix'  'se_fix'}
+                freeze: {'d_so_z_gain'  'd_so_y_co'  'd_se_y_co'}
+            iterations: 50
+     optimoptions_opts: {}
+               verbose: 1
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0         36      0.00824066                      1.43e-08
+
+Optimization completed: The final point is the initial point.
+The <a href = "matlab: helpview('optim','firstorder_lsq','CSHelpWindow');">first-order optimality measure</a>, 1.426360e-08, is less than
+<a href = "matlab: helpview('optim','optimality_tolerance_lsq','CSHelpWindow');">options.OptimalityTolerance</a> = 1.000000e-07.
+
+
+Calibration result:
+                d_source_pos                            d_source_moment                             d_sensor_pos                             d_sensor_moment          
+    _____________________________________    _____________________________________    _________________________________________    ___________________________________
+     0.046218    -0.0012051             0      0.93063    -0.0084566             0     0.00015939     8.3417e-05              0      0.15915    0.0001556            0
+    0.0023748      0.046346             0            0       0.94769             0     6.2236e-05     1.8204e-05              0            0      0.15828            0
+    -0.043866     -0.042817             0    -0.023946      0.007795             1    -0.00015015    -0.00017581              0    0.0022674    0.0020203       0.1627
+Source fix: [0.00381 0.00333 -0.00605 0.00969 0.00974 -1.59302 ]
+Stage fix: [-0.00050 0.24294 0.00575 -0.00312 0.00326 0.01568 ]
+Sensor fix: [-0.00022 0.00019 -0.00021 -2.20115 -2.23164 -0.00009 ]
+RMS/point residue 0.00439821, sum square 0.00824066.
+Wrote XYZ_hr_cal
+
+Calibrating from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+                source: 'dipole'
+                sensor: 'premo'
+              cal_mode: 'XYZ_all'
+      base_calibration: 'XYZ_hr_cal'
+                ishigh: 1
+             normalize: 1
+        pin_quadrupole: 1
+            concentric: 0
+          correct_mode: 'DLT'
+    reoptimize_fixture: 0
+          sensor_signs: [1 1 1]
+          source_signs: [1 1 1]
+       sensor_fixtures: {'seYoutZup'  'seZinYup'  'seZinXdown'}
+       source_fixtures: {'soYoutZup'  'soXoutZup'  'soZoutYup'  'soXinYup'}
+         data_patterns: {'md'  'source'}
+              in_files: {1×7 cell}
+              out_file: 'XYZ_all_hr_cal'
+              optimize: {'so_fix'  'd_so_pos'  'd_so_mo'  'd_se_pos'  'd_se_mo'  'st_fix'  'se_fix'}
+                freeze: {'d_so_z_gain'  'd_so_y_co'  'd_se_y_co'}
+            iterations: 50
+     optimoptions_opts: {}
+               verbose: 1
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0         42        0.808365                          82.9
+     1         84       0.0181414      0.0211744           8.63      
+     2        126       0.0161825     0.00130198         0.0137      
+     3        168       0.0161825    1.14349e-05       1.67e-05      
+     4        210       0.0161825    2.07341e-08       6.06e-08      
+
+Optimization completed: The <a href = "matlab: helpview('optim','firstorder_lsq','CSHelpWindow');">first-order optimality measure</a>, 6.062416e-08,
+is less than <a href = "matlab: helpview('optim','optimality_tolerance_lsq','CSHelpWindow');">options.OptimalityTolerance</a> = 1.000000e-07.
+
+6 invalid points with residual > 1e-05.
+
+Calibration result:
+                d_source_pos                            d_source_moment                             d_sensor_pos                             d_sensor_moment           
+    _____________________________________    _____________________________________    ________________________________________    _____________________________________
+     0.045127    -0.0011192             0      0.94454    -0.0046713             0    0.00018521     2.2815e-05              0      0.15664    0.00018632             0
+    0.0016275      0.045826             0            0       0.94891             0     9.495e-05     3.0794e-07              0            0       0.15609             0
+    -0.043798     -0.042708             0    -0.024569     0.0066665             1     -0.000173    -0.00012496              0    0.0021885     0.0021212       0.16032
+Source fix: [0.00242 0.00192 -0.01165 0.00901 0.01317 -1.58766 ]
+Stage fix: [0.00068 0.24317 0.01213 -0.00004 0.00170 0.00609 ]
+Sensor fix: [-0.00019 0.00018 -0.00018 -2.20175 -2.23137 -0.00080 ]
+RMS/point residue 0.00468268, sum square 0.0161825.
+Wrote XYZ_all_hr_cal
+
+Calibrating from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+                source: 'dipole'
+                sensor: 'premo'
+              cal_mode: 'so_quadrupole'
+      base_calibration: 'XYZ_hr_cal'
+                ishigh: 1
+             normalize: 1
+        pin_quadrupole: 1
+            concentric: 0
+          correct_mode: 'none'
+    reoptimize_fixture: 0
+          sensor_signs: [1 1 1]
+          source_signs: [1 1 1]
+       sensor_fixtures: {'seYoutZup'  'seZinYup'  'seZinXdown'}
+       source_fixtures: {'soYoutZup'  'soXoutZup'  'soZoutYup'  'soXinYup'}
+         data_patterns: {'source'}
+              in_files: {1×4 cell}
+              out_file: 'so_quadrupole_hr_cal'
+              optimize: {'q_so_mo'  'so_fix'  'st_fix'  'd_so_pos'  'd_so_mo'}
+                freeze: {'d_se_z_gain'  'd_so_y_co'  'd_se_y_co'}
+            iterations: 50
+     optimoptions_opts: {}
+               verbose: 1
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0         34        0.795717                          81.9
+     1         68        0.795717             10           81.9      
+     2        102        0.795717            2.5           81.9      
+     3        136        0.589918          0.625           91.1      
+     4        170        0.173439          0.625           31.3      
+     5        204        0.173439       0.927687           31.3      
+     6        238       0.0718861       0.231922           15.8      
+     7        272       0.0718861       0.463844           15.8      
+     8        306        0.050502       0.115961           12.3      
+     9        340       0.0473349       0.231922           21.5      
+    10        374       0.0300714      0.0579804           8.71      
+    11        408       0.0300714       0.115961           8.71      
+    12        442       0.0248197      0.0289902            9.8      
+    13        476       0.0248197      0.0579804            9.8      
+    14        510       0.0225984      0.0144951           4.35      
+    15        544       0.0202983      0.0144951           8.65      
+    16        578       0.0202983      0.0289902           8.65      
+    17        612       0.0185944     0.00724756           3.15      
+    18        646       0.0178922      0.0144951            8.6      
+    19        680       0.0163581      0.0144951           2.91      
+    20        714       0.0163581      0.0289902           2.91      
+    21        748       0.0146638     0.00724756           7.11      
+    22        782       0.0142116      0.0144951           2.25      
+    23        816        0.012867      0.0144951           5.25      
+    24        850        0.012867      0.0289902           5.25      
+    25        884       0.0124034     0.00724756           1.33      
+    26        918       0.0123214     0.00724756           2.03      
+    27        952       0.0123214     0.00724756           2.03      
+    28        986       0.0121315     0.00181189           1.31      
+    29       1020       0.0120349     0.00362378           1.54      
+    30       1054       0.0119904     0.00362378           1.57      
+    31       1088       0.0119145     0.00362378            1.3      
+    32       1122       0.0118683     0.00362378           1.72      
+    33       1156       0.0117906     0.00362378           1.19      
+    34       1190       0.0117103     0.00362378            2.2      
+    35       1224       0.0116107     0.00362378           1.05      
+    36       1258       0.0114437     0.00362378           2.74      
+    37       1292       0.0113023     0.00362378          0.801      
+    38       1326       0.0109993     0.00724756           2.97      
+    39       1360       0.0109993      0.0144951           2.97      
+    40       1394       0.0108084     0.00362378          0.294      
+    41       1428       0.0107807     0.00724756           2.16      
+    42       1462       0.0107026     0.00724756          0.469      
+    43       1496       0.0107026      0.0144951          0.469      
+    44       1530       0.0106487     0.00362378          0.694      
+    45       1564       0.0106487     0.00724756          0.694      
+    46       1598       0.0106227     0.00181189          0.366      
+    47       1632       0.0106227     0.00362378          0.366      
+    48       1666       0.0106099    0.000905944          0.483      
+    49       1700       0.0105951    0.000905944          0.437      
+    50       1734       0.0105951     0.00181189          0.437      
+    51       1768       0.0105827    0.000452972          0.402      
+
+<a href = "matlab: helpview('optim','solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+lsqnonlin stopped because it exceeded the iteration limit,
+<a href = "matlab: helpview('optim','max_iter','CSHelpWindow');">options.MaxIterations</a> = 5.000000e+01.
+
+
+Calibration result:
+                 d_source_pos                             d_source_moment                             d_sensor_pos                             d_sensor_moment          
+    _______________________________________    _____________________________________    _________________________________________    ___________________________________
+     0.045032    -0.00076669              0      0.92937    -0.0049535             0     0.00015939     8.3417e-05              0      0.15915    0.0001556            0
+    0.0024207        0.04269              0            0       0.93638             0     6.2236e-05     1.8204e-05              0            0      0.15828            0
+    -0.043382      -0.044088              0    -0.023289     0.0069321       0.98733    -0.00015015    -0.00017581              0    0.0022674    0.0020203       0.1627
+    q_source_pos                q_source_moment                q_sensor_pos    q_sensor_moment
+    ____________    _______________________________________    ____________    _______________
+    0    0    0       0.22076       0.018976    -2.1173e-05    0    0    0       0    0    0  
+    0    0    0      -0.13778       -0.77224     1.3562e-05    0    0    0       0    0    0  
+    0    0    0     -0.051504       -0.16959     0.00031901    0    0    0       0    0    0  
+Source fix: [0.00277 0.00182 -0.01150 0.01025 0.01251 -1.58840 ]
+Stage fix: [0.00050 0.24322 0.01203 -0.00007 0.00190 0.00827 ]
+Sensor fix: [-0.00022 0.00019 -0.00021 -2.20115 -2.23164 -0.00009 ]
+RMS/point residue 0.005824, sum square 0.0105827.
+Wrote so_quadrupole_hr_cal
+
+Calibrating from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+                source: 'dipole'
+                sensor: 'premo'
+              cal_mode: 'so_quadrupole_reopt'
+      base_calibration: 'so_quadrupole_hr_cal'
+                ishigh: 1
+             normalize: 1
+        pin_quadrupole: 1
+            concentric: 0
+          correct_mode: 'DLT'
+    reoptimize_fixture: 0
+          sensor_signs: [1 1 1]
+          source_signs: [1 1 1]
+       sensor_fixtures: {'seYoutZup'  'seZinYup'  'seZinXdown'}
+       source_fixtures: {'soYoutZup'  'soXoutZup'  'soZoutYup'  'soXinYup'}
+         data_patterns: {'md'}
+              in_files: {1×3 cell}
+              out_file: 'so_quadrupole_reopt_hr_cal'
+              optimize: {'d_se_mo'  'd_se_pos'  'st_fix'  'se_fix'}
+                freeze: {'d_so_z_gain'  'd_so_y_co'  'd_se_y_co'}
+            iterations: 50
+     optimoptions_opts: {}
+               verbose: 1
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0         25       0.0147488                          8.34
+     1         50       0.0106436     0.00231823          0.103      
+     2         75       0.0106434    1.85473e-05       4.44e-05      
+     3        100       0.0106434    9.00203e-08       3.07e-07      
+
+Optimization stopped because the relative sum of squares (r) is changing
+by less than <a href = "matlab: helpview('optim','tolfun_lsq','CSHelpWindow');">options.FunctionTolerance</a> = 1.000000e-08.
+
+
+Calibration result:
+                 d_source_pos                             d_source_moment                             d_sensor_pos                              d_sensor_moment           
+    _______________________________________    _____________________________________    _________________________________________    _____________________________________
+     0.045032    -0.00076669              0      0.92937    -0.0049535             0     0.00016961     9.3414e-05              0      0.15973    0.00015654             0
+    0.0024207        0.04269              0            0       0.93638             0      6.286e-05     1.6622e-05              0            0       0.15885             0
+    -0.043382      -0.044088              0    -0.023289     0.0069321       0.98733    -0.00017258    -0.00019667              0    0.0022657     0.0020649       0.16332
+    q_source_pos                q_source_moment                q_sensor_pos    q_sensor_moment
+    ____________    _______________________________________    ____________    _______________
+    0    0    0       0.22076       0.018976    -2.1173e-05    0    0    0       0    0    0  
+    0    0    0      -0.13778       -0.77224     1.3562e-05    0    0    0       0    0    0  
+    0    0    0     -0.051504       -0.16959     0.00031901    0    0    0       0    0    0  
+Source fix: [0.00277 0.00182 -0.01150 0.01025 0.01251 -1.58840 ]
+Stage fix: [0.00008 0.24348 0.01183 -0.00054 0.00031 0.00938 ]
+Sensor fix: [-0.00022 0.00018 -0.00023 -2.20126 -2.23154 -0.00037 ]
+RMS/point residue 0.00499846, sum square 0.0106434.
+Wrote so_quadrupole_reopt_hr_cal
+
+Calibrating from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+                source: 'dipole'
+                sensor: 'premo'
+              cal_mode: 'so_quadrupole_all'
+      base_calibration: 'so_quadrupole_hr_cal'
+                ishigh: 1
+             normalize: 1
+        pin_quadrupole: 1
+            concentric: 0
+          correct_mode: 'DLT'
+    reoptimize_fixture: 0
+          sensor_signs: [1 1 1]
+          source_signs: [1 1 1]
+       sensor_fixtures: {'seYoutZup'  'seZinYup'  'seZinXdown'}
+       source_fixtures: {'soYoutZup'  'soXoutZup'  'soZoutYup'  'soXinYup'}
+         data_patterns: {'source'  'md'}
+              in_files: {1×7 cell}
+              out_file: 'so_quadrupole_all_hr_cal'
+              optimize: {1×8 cell}
+                freeze: {'d_so_z_gain'  'd_so_y_co'  'd_se_y_co'}
+            iterations: 50
+     optimoptions_opts: {}
+               verbose: 1
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0         51       0.0253316                          8.48
+     1        102       0.0253316             10           8.48      
+     2        153       0.0253316            2.5           8.48      
+     3        204       0.0253316          0.625           8.48      
+     4        255       0.0253316        0.15625           8.48      
+     5        306       0.0253316      0.0390625           8.48      
+     6        357       0.0234867     0.00976562           7.77      
+     7        408       0.0231029      0.0195312           3.11      
+     8        459       0.0230643      0.0195312              6      
+     9        510       0.0227355     0.00488281            2.5      
+    10        561       0.0227355     0.00976562            2.5      
+    11        612       0.0224978     0.00244141           4.27      
+    12        663       0.0224978     0.00488281           4.27      
+    13        714       0.0223151      0.0012207           1.97      
+    14        765       0.0222751     0.00244141           3.63      
+    15        816        0.022195     0.00244141           1.77      
+    16        867       0.0221535     0.00244141           3.72      
+    17        918       0.0220761     0.00244141           1.71      
+    18        969       0.0220249     0.00244141           3.91      
+    19       1020       0.0219416     0.00244141           1.58      
+    20       1071       0.0218717     0.00244141           4.14      
+    21       1122       0.0217759     0.00244141           1.46      
+    22       1173       0.0216679     0.00244141            4.5      
+    23       1224       0.0215476     0.00244141           1.26      
+    24       1275       0.0213683     0.00244141           4.98      
+    25       1326       0.0212173     0.00244141           1.16      
+    26       1377        0.021092     0.00488281           4.22      
+    27       1428       0.0209103     0.00488281            1.3      
+    28       1479       0.0209103     0.00976562            1.3      
+    29       1530       0.0209103     0.00244141            1.3      
+    30       1581       0.0208649    0.000610352           1.03      
+    31       1632       0.0208649      0.0012207           1.03      
+    32       1683       0.0208417    0.000305176          0.916      
+    33       1734       0.0208417    0.000610352          0.916      
+    34       1785       0.0208272    0.000152588          0.827      
+    35       1836       0.0208085    0.000152588          0.891      
+    36       1887       0.0207901    0.000305176          0.779      
+    37       1938       0.0207814    0.000610352          0.851      
+    38       1989       0.0207736    0.000610352          0.835      
+    39       2040       0.0207648    0.000610352          0.809      
+    40       2091       0.0207571    0.000610352           0.89      
+    41       2142       0.0207487    0.000610352           0.79      
+    42       2193       0.0207409    0.000610352          0.959      
+    43       2244       0.0207313    0.000610352          0.773      
+    44       2295       0.0207229    0.000610352           1.04      
+    45       2346       0.0207131    0.000610352          0.756      
+    46       2397        0.020704    0.000610352           1.13      
+    47       2448       0.0206935    0.000610352          0.739      
+    48       2499       0.0206832    0.000610352           1.22      
+    49       2550       0.0206717    0.000610352          0.721      
+    50       2601       0.0206599    0.000610352           1.32      
+    51       2652       0.0206471    0.000610352          0.701      
+
+<a href = "matlab: helpview('optim','solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+lsqnonlin stopped because it exceeded the iteration limit,
+<a href = "matlab: helpview('optim','max_iter','CSHelpWindow');">options.MaxIterations</a> = 5.000000e+01.
+
+6 invalid points with residual > 1e-05.
+
+Calibration result:
+                 d_source_pos                             d_source_moment                             d_sensor_pos                              d_sensor_moment           
+    _______________________________________    _____________________________________    _________________________________________    _____________________________________
+     0.044866    -0.00086249              0      0.92943    -0.0048365             0     0.00019453      4.399e-06              0        0.159    0.00016106             0
+    0.0024727       0.042694              0            0        0.9364             0     8.9736e-05    -2.5611e-05              0            0       0.15843             0
+     -0.04344      -0.044177              0    -0.023187     0.0069575       0.98733    -0.00017123      -9.64e-05              0    0.0022276     0.0020408       0.16272
+    q_source_pos              q_source_moment               q_sensor_pos    q_sensor_moment
+    ____________    ____________________________________    ____________    _______________
+    0    0    0      0.22137      0.018459    8.8046e-06    0    0    0       0    0    0  
+    0    0    0     -0.13725      -0.77119    8.0037e-06    0    0    0       0    0    0  
+    0    0    0      -0.0513      -0.16951     0.0002947    0    0    0       0    0    0  
+Source fix: [0.00261 0.00187 -0.01165 0.01007 0.01251 -1.58831 ]
+Stage fix: [0.00035 0.24326 0.01203 -0.00005 0.00183 0.00820 ]
+Sensor fix: [-0.00016 0.00017 -0.00017 -2.20118 -2.23166 -0.00013 ]
+RMS/point residue 0.00528933, sum square 0.0206471.
+Wrote so_quadrupole_all_hr_cal
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_hr_cal'
+              variant: 'default'
+             in_files: {1×3 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 4.55e-04 RMS, 1.69e-03 max.
+Orientation error (radians): 6.10e-03 RMS, 1.60e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_hr_cal'
+              variant: 'nocorrect'
+             in_files: {1×3 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 5.61e-04 RMS, 1.81e-03 max.
+Orientation error (radians): 6.10e-03 RMS, 1.60e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 5.72e-03 RMS, 1.27e-02 max.
+Orientation error (radians): 1.49e-02 RMS, 3.85e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 4.88e-03 RMS, 1.17e-02 max.
+Orientation error (radians): 1.49e-02 RMS, 3.85e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_all_hr_cal'
+              variant: 'default'
+             in_files: {1×3 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 5.70e-04 RMS, 1.44e-03 max.
+Orientation error (radians): 7.25e-03 RMS, 1.74e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_all_hr_cal'
+              variant: 'nocorrect'
+             in_files: {1×3 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 6.93e-04 RMS, 1.66e-03 max.
+Orientation error (radians): 7.25e-03 RMS, 1.74e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_all_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 7.27e-04 RMS, 2.20e-03 max.
+Orientation error (radians): 7.93e-03 RMS, 1.88e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_all_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 9.15e-04 RMS, 2.37e-03 max.
+Orientation error (radians): 7.93e-03 RMS, 1.88e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_hr_cal'
+              variant: 'default'
+             in_files: {1×3 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 8.22e-04 RMS, 2.07e-03 max.
+Orientation error (radians): 7.49e-03 RMS, 2.34e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_hr_cal'
+              variant: 'nocorrect'
+             in_files: {1×3 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 8.22e-04 RMS, 2.07e-03 max.
+Orientation error (radians): 7.49e-03 RMS, 2.34e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 1.53e-03 RMS, 3.70e-03 max.
+Orientation error (radians): 1.11e-02 RMS, 2.62e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 1.53e-03 RMS, 3.70e-03 max.
+Orientation error (radians): 1.11e-02 RMS, 2.62e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_reopt_hr_cal'
+              variant: 'default'
+             in_files: {1×3 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 5.25e-04 RMS, 1.84e-03 max.
+Orientation error (radians): 7.24e-03 RMS, 2.46e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_reopt_hr_cal'
+              variant: 'nocorrect'
+             in_files: {1×3 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 6.41e-04 RMS, 1.83e-03 max.
+Orientation error (radians): 7.24e-03 RMS, 2.46e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_reopt_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 1.73e-03 RMS, 5.11e-03 max.
+Orientation error (radians): 1.10e-02 RMS, 2.79e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_reopt_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 1.54e-03 RMS, 4.06e-03 max.
+Orientation error (radians): 1.10e-02 RMS, 2.79e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_all_hr_cal'
+              variant: 'default'
+             in_files: {1×3 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 6.72e-04 RMS, 1.90e-03 max.
+Orientation error (radians): 7.14e-03 RMS, 2.19e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_all_hr_cal'
+              variant: 'nocorrect'
+             in_files: {1×3 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 6.98e-04 RMS, 2.18e-03 max.
+Orientation error (radians): 7.14e-03 RMS, 2.19e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_all_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+Position error (m): 8.69e-04 RMS, 2.15e-03 max.
+Orientation error (radians): 1.01e-02 RMS, 2.24e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'so_quadrupole_all_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+Position error (m): 1.39e-03 RMS, 3.43e-03 max.
+Orientation error (radians): 1.01e-02 RMS, 2.24e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_concentric_hr_cal'
+              variant: 'default'
+             in_files: {1×3 cell}
+    linear_correction: 1
+        pose_solution: 'kim18'
+Position error (m): 2.10e+00 RMS, 7.17e+01 max.
+Orientation error (radians): 2.20e-01 RMS, 4.48e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_concentric_hr_cal'
+              variant: 'nocorrect'
+             in_files: {1×3 cell}
+    linear_correction: 0
+        pose_solution: 'kim18'
+Position error (m): 2.56e-02 RMS, 4.63e-02 max.
+Orientation error (radians): 2.20e-01 RMS, 4.48e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_concentric_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'kim18'
+Position error (m): 1.83e+00 RMS, 7.17e+01 max.
+Orientation error (radians): 3.67e-01 RMS, 9.73e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_concentric_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'kim18'
+Position error (m): 5.34e-02 RMS, 1.59e-01 max.
+Orientation error (radians): 3.67e-01 RMS, 9.73e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_all_concentric_hr_cal'
+              variant: 'default'
+             in_files: {1×3 cell}
+    linear_correction: 1
+        pose_solution: 'kim18'
+Position error (m): 7.32e+00 RMS, 2.31e+02 max.
+Orientation error (radians): 3.08e-01 RMS, 7.41e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_all_concentric_hr_cal'
+              variant: 'nocorrect'
+             in_files: {1×3 cell}
+    linear_correction: 0
+        pose_solution: 'kim18'
+Position error (m): 3.37e-02 RMS, 7.63e-02 max.
+Orientation error (radians): 3.08e-01 RMS, 7.41e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_all_concentric_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'kim18'
+Position error (m): 6.34e+00 RMS, 2.31e+02 max.
+Orientation error (radians): 3.36e-01 RMS, 8.00e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt\cal_data\cal_7_29_premo_dipole
+             cal_file: 'XYZ_all_concentric_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'kim18'
+Position error (m): 3.96e-02 RMS, 1.02e-01 max.
+Orientation error (radians): 3.36e-01 RMS, 8.00e-01 max
+
+trans_rms:
+                                   default      nocorrect     source fix    sf nocorrect
+                                  __________    __________    __________    ____________
+    XYZ_hr_cal                    0.00045472     0.0005615     0.0057193      0.0048799 
+    XYZ_all_hr_cal                0.00056981    0.00069278    0.00072713     0.00091467 
+    so_quadrupole_hr_cal          0.00082221    0.00082221     0.0015267      0.0015267 
+    so_quadrupole_reopt_hr_cal    0.00052521     0.0006412     0.0017257      0.0015357 
+    so_quadrupole_all_hr_cal      0.00067205    0.00069809    0.00086938      0.0013873 
+    XYZ_concentric_hr_cal             2.1004      0.025561        1.8282       0.053429 
+    XYZ_all_concentric_hr_cal         7.3164      0.033725        6.3363       0.039613 
+
+trans_max:
+                                   default     nocorrect    source fix    sf nocorrect
+                                  _________    _________    __________    ____________
+    XYZ_hr_cal                    0.0016943    0.0018086     0.012667       0.011669  
+    XYZ_all_hr_cal                0.0014429    0.0016649    0.0022004      0.0023698  
+    so_quadrupole_hr_cal           0.002069     0.002069    0.0036981      0.0036981  
+    so_quadrupole_reopt_hr_cal    0.0018436    0.0018282     0.005112      0.0040575  
+    so_quadrupole_all_hr_cal      0.0018967     0.002177    0.0021522      0.0034304  
+    XYZ_concentric_hr_cal             71.74     0.046316        71.74        0.15913  
+    XYZ_all_concentric_hr_cal        231.35     0.076258       231.35        0.10207  
+
+rot_rms:
+                                   default     nocorrect    source fix    sf nocorrect
+                                  _________    _________    __________    ____________
+    XYZ_hr_cal                    0.0060992    0.0060992     0.014926       0.014926  
+    XYZ_all_hr_cal                0.0072519    0.0072519    0.0079289      0.0079289  
+    so_quadrupole_hr_cal          0.0074905    0.0074905     0.011123       0.011123  
+    so_quadrupole_reopt_hr_cal    0.0072379    0.0072379     0.011042       0.011042  
+    so_quadrupole_all_hr_cal      0.0071367    0.0071367     0.010086       0.010086  
+    XYZ_concentric_hr_cal           0.22009      0.22009      0.36718        0.36718  
+    XYZ_all_concentric_hr_cal       0.30775      0.30775      0.33563        0.33563  
+
+rot_max:
+                                  default     nocorrect    source fix    sf nocorrect
+                                  ________    _________    __________    ____________
+    XYZ_hr_cal                    0.016013    0.016013      0.038459       0.038459  
+    XYZ_all_hr_cal                0.017377    0.017377       0.01883        0.01883  
+    so_quadrupole_hr_cal          0.023374    0.023374      0.026184       0.026184  
+    so_quadrupole_reopt_hr_cal    0.024582    0.024582       0.02793        0.02793  
+    so_quadrupole_all_hr_cal      0.021899    0.021899      0.022384       0.022384  
+    XYZ_concentric_hr_cal          0.44789     0.44789       0.97314        0.97314  
+    XYZ_all_concentric_hr_cal      0.74127     0.74127       0.79986        0.79986  
