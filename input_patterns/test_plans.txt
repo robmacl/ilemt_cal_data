@@ -79,3 +79,10 @@ Sensor input patterns with (size):
 cal_smalldata_pattern.dat (_sd)
 cal_middata_pattern.dat (_md)
 cal_bigdata_pattern.dat (_ld)
+
+Sweep files:
+soYoutZup_seYoutZup_sweep.dat	Sweep data, home fixtures
+
+Sweep input patterns (choose either):
+axis_sweep.dat			2mm XYZ x 2 degree Rz
+axis_sweep_1_1.dat		1mm XYZ x 1 degree Rz
