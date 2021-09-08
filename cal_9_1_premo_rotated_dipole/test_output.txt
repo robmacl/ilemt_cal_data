@@ -1,0 +1,1778 @@
+________________________________________________________________
+Test start:    08-Sep-2021 11:04:45
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_hr_cal'
+              variant: 'default'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 1
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000523128, trying alternate 1
+p_s_o_retry: failed 0.000528162, trying alternate 1
+p_s_o_retry: failed 0.000516047, trying alternate 1
+p_s_o_retry: failed 0.000509836, trying alternate 1
+p_s_o_retry: failed 0.000511886, trying alternate 1
+Position error (m): 2.01e-04 RMS, 4.67e-04 max.
+Orientation error (radians): 4.89e-03 RMS, 1.12e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_hr_cal'
+              variant: 'nocorrect'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 0
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000523128, trying alternate 1
+p_s_o_retry: failed 0.000528162, trying alternate 1
+p_s_o_retry: failed 0.000516047, trying alternate 1
+p_s_o_retry: failed 0.000509836, trying alternate 1
+p_s_o_retry: failed 0.000511886, trying alternate 1
+Position error (m): 3.22e-04 RMS, 8.28e-04 max.
+Orientation error (radians): 4.89e-03 RMS, 1.12e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000509836, trying alternate 1
+p_s_o_retry: failed 0.000528162, trying alternate 1
+p_s_o_retry: failed 0.000523128, trying alternate 1
+p_s_o_retry: failed 0.0148071, trying alternate 1
+p_s_o_retry: failed 0.00260275, trying alternate 1
+p_s_o_retry: failed 0.000712515, trying alternate 1
+p_s_o_retry: failed 0.0012842, trying alternate 1
+p_s_o_retry: failed 0.00242257, trying alternate 1
+p_s_o_retry: failed 0.000516047, trying alternate 1
+p_s_o_retry: failed 0.00480215, trying alternate 1
+p_s_o_retry: failed 0.0100185, trying alternate 1
+p_s_o_retry: failed 0.00304222, trying alternate 1
+p_s_o_retry: failed 0.00235287, trying alternate 1
+p_s_o_retry: failed 0.000511886, trying alternate 1
+p_s_o_retry: failed 0.00561513, trying alternate 1
+p_s_o_retry: failed 0.0105497, trying alternate 1
+p_s_o_retry: failed 0.00307011, trying alternate 1
+p_s_o_retry: failed 0.000522608, trying alternate 1
+p_s_o_retry: failed 0.000607723, trying alternate 1
+p_s_o_retry: failed 0.000669264, trying alternate 1
+p_s_o_retry: failed 0.000910386, trying alternate 1
+p_s_o_retry: failed 0.00109697, trying alternate 1
+p_s_o_retry: failed 0.00123611, trying alternate 1
+p_s_o_retry: failed 0.00208889, trying alternate 1
+p_s_o_retry: failed 0.01563, trying alternate 1
+p_s_o_retry: failed 0.00160114, trying alternate 1
+p_s_o_retry: failed 0.000649015, trying alternate 1
+p_s_o_retry: failed 0.000806277, trying alternate 1
+p_s_o_retry: failed 0.0011594, trying alternate 1
+p_s_o_retry: failed 0.00151149, trying alternate 1
+p_s_o_retry: failed 0.00216776, trying alternate 1
+p_s_o_retry: failed 0.000429574, trying alternate 1
+p_s_o_retry: failed 0.000472689, trying alternate 1
+p_s_o_retry: failed 0.000726933, trying alternate 1
+p_s_o_retry: failed 0.000818946, trying alternate 1
+p_s_o_retry: failed 0.00127858, trying alternate 1
+p_s_o_retry: failed 0.00904627, trying alternate 1
+p_s_o_retry: failed 0.00148257, trying alternate 1
+p_s_o_retry: failed 0.00281134, trying alternate 1
+p_s_o_retry: failed 0.00558378, trying alternate 1
+p_s_o_retry: failed 0.000516572, trying alternate 1
+p_s_o_retry: failed 0.000600851, trying alternate 1
+p_s_o_retry: failed 0.000661995, trying alternate 1
+p_s_o_retry: failed 0.000899938, trying alternate 1
+p_s_o_retry: failed 0.00242101, trying alternate 1
+p_s_o_retry: failed 0.00422664, trying alternate 1
+p_s_o_retry: failed 0.00507597, trying alternate 1
+p_s_o_retry: failed 0.00914329, trying alternate 1
+p_s_o_retry: failed 0.000212599, trying alternate 2
+p_s_o_retry: failed 0.0114957, trying alternate 1
+p_s_o_retry: failed 0.000677628, trying alternate 1
+p_s_o_retry: failed 0.0030062, trying alternate 1
+p_s_o_retry: failed 0.00425413, trying alternate 1
+p_s_o_retry: failed 0.00640211, trying alternate 1
+p_s_o_retry: failed 0.00129518, trying alternate 1
+p_s_o_retry: failed 0.0147445, trying alternate 1
+p_s_o_retry: failed 0.0113279, trying alternate 1
+p_s_o_retry: failed 0.000668976, trying alternate 1
+p_s_o_retry: failed 0.000782587, trying alternate 1
+p_s_o_retry: failed 0.00122169, trying alternate 1
+p_s_o_retry: failed 0.00148315, trying alternate 1
+p_s_o_retry: failed 0.00235391, trying alternate 1
+p_s_o_retry: failed 0.00299597, trying alternate 1
+p_s_o_retry: failed 0.00108465, trying alternate 1
+p_s_o_retry: failed 0.00122315, trying alternate 1
+p_s_o_retry: failed 0.00206703, trying alternate 1
+p_s_o_retry: failed 0.00239952, trying alternate 1
+p_s_o_retry: failed 0.00418744, trying alternate 1
+p_s_o_retry: failed 0.00503849, trying alternate 1
+p_s_o_retry: failed 0.00907398, trying alternate 1
+p_s_o_retry: failed 0.0114292, trying alternate 1
+p_s_o_retry: failed 0.000794636, trying alternate 1
+p_s_o_retry: failed 0.00123554, trying alternate 1
+p_s_o_retry: failed 0.00150391, trying alternate 1
+p_s_o_retry: failed 0.00237712, trying alternate 1
+p_s_o_retry: failed 0.00303484, trying alternate 1
+p_s_o_retry: failed 0.00486112, trying alternate 1
+p_s_o_retry: failed 0.00260169, trying alternate 1
+p_s_o_retry: failed 0.000708132, trying alternate 1
+p_s_o_retry: failed 0.00127783, trying alternate 1
+p_s_o_retry: failed 0.00241408, trying alternate 1
+p_s_o_retry: failed 0.00479138, trying alternate 1
+p_s_o_retry: failed 0.00482541, trying alternate 1
+p_s_o_retry: failed 0.00653542, trying alternate 1
+p_s_o_retry: failed 0.000883089, trying alternate 1
+p_s_o_retry: failed 0.0105939, trying alternate 1
+p_s_o_retry: failed 0.0156065, trying alternate 1
+p_s_o_retry: failed 0.0015856, trying alternate 1
+p_s_o_retry: failed 0.000670875, trying alternate 1
+p_s_o_retry: failed 0.000787037, trying alternate 1
+p_s_o_retry: failed 0.00122334, trying alternate 1
+p_s_o_retry: failed 0.00148971, trying alternate 1
+p_s_o_retry: failed 0.00235415, trying alternate 1
+p_s_o_retry: failed 0.00300883, trying alternate 1
+p_s_o_retry: failed 0.00481763, trying alternate 1
+p_s_o_retry: failed 0.00655742, trying alternate 1
+p_s_o_retry: failed 0.000892407, trying alternate 1
+p_s_o_retry: failed 0.00660681, trying alternate 1
+p_s_o_retry: failed 0.000895727, trying alternate 1
+p_s_o_retry: failed 0.0106328, trying alternate 1
+p_s_o_retry: failed 0.0157267, trying alternate 1
+p_s_o_retry: failed 0.00160428, trying alternate 1
+p_s_o_retry: failed 0.000654748, trying alternate 1
+p_s_o_retry: failed 0.000812465, trying alternate 1
+p_s_o_retry: failed 0.00116902, trying alternate 1
+p_s_o_retry: failed 0.0100141, trying alternate 1
+p_s_o_retry: failed 0.00305342, trying alternate 1
+p_s_o_retry: failed 0.000434609, trying alternate 1
+p_s_o_retry: failed 0.000478112, trying alternate 1
+p_s_o_retry: failed 0.000650931, trying alternate 1
+p_s_o_retry: failed 0.000806216, trying alternate 1
+p_s_o_retry: failed 0.00116502, trying alternate 1
+p_s_o_retry: failed 0.00151435, trying alternate 1
+p_s_o_retry: failed 0.00218104, trying alternate 1
+p_s_o_retry: failed 0.00301641, trying alternate 1
+p_s_o_retry: failed 0.00152264, trying alternate 1
+p_s_o_retry: failed 0.00218348, trying alternate 1
+p_s_o_retry: failed 0.00302616, trying alternate 1
+p_s_o_retry: failed 0.00428207, trying alternate 1
+p_s_o_retry: failed 0.0064382, trying alternate 1
+p_s_o_retry: failed 0.00129868, trying alternate 1
+p_s_o_retry: failed 0.000735448, trying alternate 1
+p_s_o_retry: failed 0.000827912, trying alternate 1
+p_s_o_retry: failed 0.00129222, trying alternate 1
+p_s_o_retry: failed 0.000210755, trying alternate 2
+p_s_o_retry: failed 0.00149656, trying alternate 1
+p_s_o_retry: failed 0.00283289, trying alternate 1
+p_s_o_retry: failed 0.00429115, trying alternate 1
+p_s_o_retry: failed 0.00643776, trying alternate 1
+p_s_o_retry: failed 0.00129087, trying alternate 1
+p_s_o_retry: failed 0.0148725, trying alternate 1
+p_s_o_retry: failed 0.00259617, trying alternate 1
+p_s_o_retry: failed 0.000712223, trying alternate 1
+p_s_o_retry: failed 0.00237013, trying alternate 1
+p_s_o_retry: failed 0.00301672, trying alternate 1
+p_s_o_retry: failed 0.00485327, trying alternate 1
+p_s_o_retry: failed 0.00657274, trying alternate 1
+p_s_o_retry: failed 0.000877373, trying alternate 1
+p_s_o_retry: failed 0.0106363, trying alternate 1
+p_s_o_retry: failed 0.000811322, trying alternate 1
+p_s_o_retry: failed 0.00127069, trying alternate 1
+p_s_o_retry: failed 0.00146807, trying alternate 1
+p_s_o_retry: failed 0.00278458, trying alternate 1
+p_s_o_retry: failed 0.00554014, trying alternate 1
+p_s_o_retry: failed 0.000514413, trying alternate 1
+p_s_o_retry: failed 0.000596673, trying alternate 1
+p_s_o_retry: failed 0.00128764, trying alternate 1
+p_s_o_retry: failed 0.00243663, trying alternate 1
+p_s_o_retry: failed 0.00485062, trying alternate 1
+p_s_o_retry: failed 0.0156685, trying alternate 1
+p_s_o_retry: failed 0.00156863, trying alternate 1
+p_s_o_retry: failed 0.000656741, trying alternate 1
+p_s_o_retry: failed 0.000813762, trying alternate 1
+p_s_o_retry: failed 0.00117389, trying alternate 1
+p_s_o_retry: failed 0.00152741, trying alternate 1
+p_s_o_retry: failed 0.00219714, trying alternate 1
+p_s_o_retry: failed 0.0149408, trying alternate 1
+p_s_o_retry: failed 0.00260457, trying alternate 1
+p_s_o_retry: failed 0.000719296, trying alternate 1
+p_s_o_retry: failed 0.00129871, trying alternate 1
+p_s_o_retry: failed 0.00245623, trying alternate 1
+p_s_o_retry: failed 0.0101725, trying alternate 1
+p_s_o_retry: failed 0.00304069, trying alternate 1
+p_s_o_retry: failed 0.00648135, trying alternate 1
+p_s_o_retry: failed 0.0012962, trying alternate 1
+p_s_o_retry: failed 0.00488059, trying alternate 1
+p_s_o_retry: failed 0.0102085, trying alternate 1
+p_s_o_retry: failed 0.00310209, trying alternate 1
+p_s_o_retry: failed 0.000426422, trying alternate 1
+p_s_o_retry: failed 0.000468094, trying alternate 1
+p_s_o_retry: failed 0.000722351, trying alternate 1
+p_s_o_retry: failed 0.000655561, trying alternate 1
+p_s_o_retry: failed 0.00089739, trying alternate 1
+p_s_o_retry: failed 0.00107819, trying alternate 1
+p_s_o_retry: failed 0.00121177, trying alternate 1
+p_s_o_retry: failed 0.00205527, trying alternate 1
+p_s_o_retry: failed 0.00237546, trying alternate 1
+p_s_o_retry: failed 0.00416646, trying alternate 1
+p_s_o_retry: failed 0.00498747, trying alternate 1
+p_s_o_retry: failed 0.00554445, trying alternate 1
+p_s_o_retry: failed 0.000518413, trying alternate 1
+p_s_o_retry: failed 0.000601145, trying alternate 1
+p_s_o_retry: failed 0.000659001, trying alternate 1
+p_s_o_retry: failed 0.000903734, trying alternate 1
+p_s_o_retry: failed 0.00108533, trying alternate 1
+p_s_o_retry: failed 0.0012181, trying alternate 1
+p_s_o_retry: failed 0.00494739, trying alternate 1
+p_s_o_retry: failed 0.0103921, trying alternate 1
+p_s_o_retry: failed 0.00309496, trying alternate 1
+p_s_o_retry: failed 0.000429186, trying alternate 1
+p_s_o_retry: failed 0.000680938, trying alternate 1
+p_s_o_retry: failed 0.000796404, trying alternate 1
+p_s_o_retry: failed 0.0012437, trying alternate 1
+p_s_o_retry: failed 0.00150913, trying alternate 1
+p_s_o_retry: failed 0.00239992, trying alternate 1
+p_s_o_retry: failed 0.00305216, trying alternate 1
+p_s_o_retry: failed 0.00222348, trying alternate 1
+p_s_o_retry: failed 0.00307749, trying alternate 1
+p_s_o_retry: failed 0.00438028, trying alternate 1
+p_s_o_retry: failed 0.00657605, trying alternate 1
+p_s_o_retry: failed 0.00206835, trying alternate 1
+p_s_o_retry: failed 0.0023871, trying alternate 1
+p_s_o_retry: failed 0.00418899, trying alternate 1
+p_s_o_retry: failed 0.00500781, trying alternate 1
+p_s_o_retry: failed 0.009082, trying alternate 1
+p_s_o_retry: failed 0.0113494, trying alternate 1
+p_s_o_retry: failed 0.000674387, trying alternate 1
+p_s_o_retry: failed 0.000470236, trying alternate 1
+p_s_o_retry: failed 0.000726238, trying alternate 1
+p_s_o_retry: failed 0.00081484, trying alternate 1
+p_s_o_retry: failed 0.00127704, trying alternate 1
+p_s_o_retry: failed 0.00147372, trying alternate 1
+p_s_o_retry: failed 0.00233673, trying alternate 1
+p_s_o_retry: failed 0.00279364, trying alternate 1
+p_s_o_retry: failed 0.00129644, trying alternate 1
+p_s_o_retry: failed 0.0152241, trying alternate 1
+p_s_o_retry: failed 0.00260249, trying alternate 1
+p_s_o_retry: failed 0.000725535, trying alternate 1
+p_s_o_retry: failed 0.00131132, trying alternate 1
+p_s_o_retry: failed 0.000788806, trying alternate 1
+p_s_o_retry: failed 0.00123057, trying alternate 1
+p_s_o_retry: failed 0.00149341, trying alternate 1
+p_s_o_retry: failed 0.00149166, trying alternate 1
+p_s_o_retry: failed 0.00236785, trying alternate 1
+p_s_o_retry: failed 0.00235364, trying alternate 1
+p_s_o_retry: failed 0.000433553, trying alternate 1
+p_s_o_retry: failed 0.00492641, trying alternate 1
+p_s_o_retry: failed 0.00666284, trying alternate 1
+p_s_o_retry: failed 0.000877546, trying alternate 1
+p_s_o_retry: failed 0.0108411, trying alternate 1
+p_s_o_retry: failed 0.0159306, trying alternate 1
+p_s_o_retry: failed 0.00156683, trying alternate 1
+p_s_o_retry: failed 0.00248353, trying alternate 1
+p_s_o_retry: failed 0.000824289, trying alternate 1
+p_s_o_retry: failed 0.00129233, trying alternate 1
+p_s_o_retry: failed 0.000662738, trying alternate 1
+p_s_o_retry: failed 0.000821368, trying alternate 1
+p_s_o_retry: failed 0.00118614, trying alternate 1
+p_s_o_retry: failed 0.00154296, trying alternate 1
+p_s_o_retry: failed 0.000475839, trying alternate 1
+p_s_o_retry: failed 0.00073422, trying alternate 1
+p_s_o_retry: failed 0.00282804, trying alternate 1
+p_s_o_retry: failed 0.00562239, trying alternate 1
+p_s_o_retry: failed 0.000523871, trying alternate 1
+p_s_o_retry: failed 0.000607595, trying alternate 1
+p_s_o_retry: failed 0.000667219, trying alternate 1
+p_s_o_retry: failed 0.000914023, trying alternate 1
+p_s_o_retry: failed 0.00109799, trying alternate 1
+p_s_o_retry: failed 0.00123283, trying alternate 1
+p_s_o_retry: failed 0.00209497, trying alternate 1
+p_s_o_retry: failed 0.00241744, trying alternate 1
+p_s_o_retry: failed 0.00425125, trying alternate 1
+p_s_o_retry: failed 0.00507588, trying alternate 1
+p_s_o_retry: failed 0.00924043, trying alternate 1
+p_s_o_retry: failed 0.0115243, trying alternate 1
+Position error (m): 1.76e-03 RMS, 5.11e-03 max.
+Orientation error (radians): 1.16e-02 RMS, 3.07e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000509836, trying alternate 1
+p_s_o_retry: failed 0.000528162, trying alternate 1
+p_s_o_retry: failed 0.000523128, trying alternate 1
+p_s_o_retry: failed 0.0148071, trying alternate 1
+p_s_o_retry: failed 0.00260275, trying alternate 1
+p_s_o_retry: failed 0.000712515, trying alternate 1
+p_s_o_retry: failed 0.0012842, trying alternate 1
+p_s_o_retry: failed 0.00242257, trying alternate 1
+p_s_o_retry: failed 0.00480215, trying alternate 1
+p_s_o_retry: failed 0.000516047, trying alternate 1
+p_s_o_retry: failed 0.000511886, trying alternate 1
+p_s_o_retry: failed 0.0105497, trying alternate 1
+p_s_o_retry: failed 0.00561513, trying alternate 1
+p_s_o_retry: failed 0.00904627, trying alternate 1
+p_s_o_retry: failed 0.0100185, trying alternate 1
+p_s_o_retry: failed 0.00304222, trying alternate 1
+p_s_o_retry: failed 0.00235287, trying alternate 1
+p_s_o_retry: failed 0.01563, trying alternate 1
+p_s_o_retry: failed 0.00160114, trying alternate 1
+p_s_o_retry: failed 0.000649015, trying alternate 1
+p_s_o_retry: failed 0.000806277, trying alternate 1
+p_s_o_retry: failed 0.0011594, trying alternate 1
+p_s_o_retry: failed 0.00151149, trying alternate 1
+p_s_o_retry: failed 0.00216776, trying alternate 1
+p_s_o_retry: failed 0.000522608, trying alternate 1
+p_s_o_retry: failed 0.000607723, trying alternate 1
+p_s_o_retry: failed 0.000669264, trying alternate 1
+p_s_o_retry: failed 0.000910386, trying alternate 1
+p_s_o_retry: failed 0.00109697, trying alternate 1
+p_s_o_retry: failed 0.00123611, trying alternate 1
+p_s_o_retry: failed 0.00208889, trying alternate 1
+p_s_o_retry: failed 0.0113279, trying alternate 1
+p_s_o_retry: failed 0.000668976, trying alternate 1
+p_s_o_retry: failed 0.000782587, trying alternate 1
+p_s_o_retry: failed 0.00122169, trying alternate 1
+p_s_o_retry: failed 0.00148315, trying alternate 1
+p_s_o_retry: failed 0.00235391, trying alternate 1
+p_s_o_retry: failed 0.00299597, trying alternate 1
+p_s_o_retry: failed 0.00307011, trying alternate 1
+p_s_o_retry: failed 0.000429574, trying alternate 1
+p_s_o_retry: failed 0.000472689, trying alternate 1
+p_s_o_retry: failed 0.000726933, trying alternate 1
+p_s_o_retry: failed 0.000818946, trying alternate 1
+p_s_o_retry: failed 0.0030062, trying alternate 1
+p_s_o_retry: failed 0.00425413, trying alternate 1
+p_s_o_retry: failed 0.00640211, trying alternate 1
+p_s_o_retry: failed 0.00129518, trying alternate 1
+p_s_o_retry: failed 0.0147445, trying alternate 1
+p_s_o_retry: failed 0.00260169, trying alternate 1
+p_s_o_retry: failed 0.00242101, trying alternate 1
+p_s_o_retry: failed 0.00422664, trying alternate 1
+p_s_o_retry: failed 0.00507597, trying alternate 1
+p_s_o_retry: failed 0.00914329, trying alternate 1
+p_s_o_retry: failed 0.000212599, trying alternate 2
+p_s_o_retry: failed 0.0114957, trying alternate 1
+p_s_o_retry: failed 0.000677628, trying alternate 1
+p_s_o_retry: failed 0.00482541, trying alternate 1
+p_s_o_retry: failed 0.00653542, trying alternate 1
+p_s_o_retry: failed 0.000883089, trying alternate 1
+p_s_o_retry: failed 0.0105939, trying alternate 1
+p_s_o_retry: failed 0.0156065, trying alternate 1
+p_s_o_retry: failed 0.0015856, trying alternate 1
+p_s_o_retry: failed 0.000650931, trying alternate 1
+p_s_o_retry: failed 0.000708132, trying alternate 1
+p_s_o_retry: failed 0.00127783, trying alternate 1
+p_s_o_retry: failed 0.00241408, trying alternate 1
+p_s_o_retry: failed 0.00479138, trying alternate 1
+p_s_o_retry: failed 0.000794636, trying alternate 1
+p_s_o_retry: failed 0.00123554, trying alternate 1
+p_s_o_retry: failed 0.00150391, trying alternate 1
+p_s_o_retry: failed 0.00237712, trying alternate 1
+p_s_o_retry: failed 0.00303484, trying alternate 1
+p_s_o_retry: failed 0.00486112, trying alternate 1
+p_s_o_retry: failed 0.000806216, trying alternate 1
+p_s_o_retry: failed 0.00116502, trying alternate 1
+p_s_o_retry: failed 0.00151435, trying alternate 1
+p_s_o_retry: failed 0.00218104, trying alternate 1
+p_s_o_retry: failed 0.00301641, trying alternate 1
+p_s_o_retry: failed 0.00429115, trying alternate 1
+p_s_o_retry: failed 0.00127858, trying alternate 1
+p_s_o_retry: failed 0.00148257, trying alternate 1
+p_s_o_retry: failed 0.00281134, trying alternate 1
+p_s_o_retry: failed 0.00558378, trying alternate 1
+p_s_o_retry: failed 0.000516572, trying alternate 1
+p_s_o_retry: failed 0.000600851, trying alternate 1
+p_s_o_retry: failed 0.0100141, trying alternate 1
+p_s_o_retry: failed 0.00305342, trying alternate 1
+p_s_o_retry: failed 0.000434609, trying alternate 1
+p_s_o_retry: failed 0.00660681, trying alternate 1
+p_s_o_retry: failed 0.000895727, trying alternate 1
+p_s_o_retry: failed 0.0106328, trying alternate 1
+p_s_o_retry: failed 0.0157267, trying alternate 1
+p_s_o_retry: failed 0.00160428, trying alternate 1
+p_s_o_retry: failed 0.000654748, trying alternate 1
+p_s_o_retry: failed 0.000812465, trying alternate 1
+p_s_o_retry: failed 0.00116902, trying alternate 1
+p_s_o_retry: failed 0.00643776, trying alternate 1
+p_s_o_retry: failed 0.00129087, trying alternate 1
+p_s_o_retry: failed 0.0148725, trying alternate 1
+p_s_o_retry: failed 0.00259617, trying alternate 1
+p_s_o_retry: failed 0.000712223, trying alternate 1
+p_s_o_retry: failed 0.00128764, trying alternate 1
+p_s_o_retry: failed 0.000661995, trying alternate 1
+p_s_o_retry: failed 0.000899938, trying alternate 1
+p_s_o_retry: failed 0.00108465, trying alternate 1
+p_s_o_retry: failed 0.00122315, trying alternate 1
+p_s_o_retry: failed 0.00206703, trying alternate 1
+p_s_o_retry: failed 0.00239952, trying alternate 1
+p_s_o_retry: failed 0.00418744, trying alternate 1
+p_s_o_retry: failed 0.00503849, trying alternate 1
+p_s_o_retry: failed 0.00152264, trying alternate 1
+p_s_o_retry: failed 0.00218348, trying alternate 1
+p_s_o_retry: failed 0.00302616, trying alternate 1
+p_s_o_retry: failed 0.00428207, trying alternate 1
+p_s_o_retry: failed 0.0064382, trying alternate 1
+p_s_o_retry: failed 0.00129868, trying alternate 1
+p_s_o_retry: failed 0.00907398, trying alternate 1
+p_s_o_retry: failed 0.0114292, trying alternate 1
+p_s_o_retry: failed 0.000670875, trying alternate 1
+p_s_o_retry: failed 0.000787037, trying alternate 1
+p_s_o_retry: failed 0.00122334, trying alternate 1
+p_s_o_retry: failed 0.00148971, trying alternate 1
+p_s_o_retry: failed 0.00235415, trying alternate 1
+p_s_o_retry: failed 0.00300883, trying alternate 1
+p_s_o_retry: failed 0.00481763, trying alternate 1
+p_s_o_retry: failed 0.00655742, trying alternate 1
+p_s_o_retry: failed 0.000892407, trying alternate 1
+p_s_o_retry: failed 0.000478112, trying alternate 1
+p_s_o_retry: failed 0.000735448, trying alternate 1
+p_s_o_retry: failed 0.000827912, trying alternate 1
+p_s_o_retry: failed 0.00129222, trying alternate 1
+p_s_o_retry: failed 0.000210755, trying alternate 2
+p_s_o_retry: failed 0.00149656, trying alternate 1
+p_s_o_retry: failed 0.00283289, trying alternate 1
+p_s_o_retry: failed 0.00243663, trying alternate 1
+p_s_o_retry: failed 0.00485062, trying alternate 1
+p_s_o_retry: failed 0.0101725, trying alternate 1
+p_s_o_retry: failed 0.0149408, trying alternate 1
+p_s_o_retry: failed 0.00260457, trying alternate 1
+p_s_o_retry: failed 0.000719296, trying alternate 1
+p_s_o_retry: failed 0.00129871, trying alternate 1
+p_s_o_retry: failed 0.00245623, trying alternate 1
+p_s_o_retry: failed 0.000811322, trying alternate 1
+p_s_o_retry: failed 0.00127069, trying alternate 1
+p_s_o_retry: failed 0.00146807, trying alternate 1
+p_s_o_retry: failed 0.00278458, trying alternate 1
+p_s_o_retry: failed 0.00554014, trying alternate 1
+p_s_o_retry: failed 0.000514413, trying alternate 1
+p_s_o_retry: failed 0.00237013, trying alternate 1
+p_s_o_retry: failed 0.00301672, trying alternate 1
+p_s_o_retry: failed 0.00485327, trying alternate 1
+p_s_o_retry: failed 0.00657274, trying alternate 1
+p_s_o_retry: failed 0.000877373, trying alternate 1
+p_s_o_retry: failed 0.0106363, trying alternate 1
+p_s_o_retry: failed 0.00554445, trying alternate 1
+p_s_o_retry: failed 0.000518413, trying alternate 1
+p_s_o_retry: failed 0.000601145, trying alternate 1
+p_s_o_retry: failed 0.000659001, trying alternate 1
+p_s_o_retry: failed 0.000903734, trying alternate 1
+p_s_o_retry: failed 0.00108533, trying alternate 1
+p_s_o_retry: failed 0.0012181, trying alternate 1
+p_s_o_retry: failed 0.00206835, trying alternate 1
+p_s_o_retry: failed 0.00488059, trying alternate 1
+p_s_o_retry: failed 0.0102085, trying alternate 1
+p_s_o_retry: failed 0.00310209, trying alternate 1
+p_s_o_retry: failed 0.000426422, trying alternate 1
+p_s_o_retry: failed 0.000468094, trying alternate 1
+p_s_o_retry: failed 0.000722351, trying alternate 1
+p_s_o_retry: failed 0.000596673, trying alternate 1
+p_s_o_retry: failed 0.000655561, trying alternate 1
+p_s_o_retry: failed 0.00089739, trying alternate 1
+p_s_o_retry: failed 0.00107819, trying alternate 1
+p_s_o_retry: failed 0.00121177, trying alternate 1
+p_s_o_retry: failed 0.00205527, trying alternate 1
+p_s_o_retry: failed 0.00237546, trying alternate 1
+p_s_o_retry: failed 0.00416646, trying alternate 1
+p_s_o_retry: failed 0.00498747, trying alternate 1
+p_s_o_retry: failed 0.0156685, trying alternate 1
+p_s_o_retry: failed 0.00156863, trying alternate 1
+p_s_o_retry: failed 0.000656741, trying alternate 1
+p_s_o_retry: failed 0.000813762, trying alternate 1
+p_s_o_retry: failed 0.00117389, trying alternate 1
+p_s_o_retry: failed 0.00152741, trying alternate 1
+p_s_o_retry: failed 0.00219714, trying alternate 1
+p_s_o_retry: failed 0.0023871, trying alternate 1
+p_s_o_retry: failed 0.00418899, trying alternate 1
+p_s_o_retry: failed 0.00500781, trying alternate 1
+p_s_o_retry: failed 0.009082, trying alternate 1
+p_s_o_retry: failed 0.0113494, trying alternate 1
+p_s_o_retry: failed 0.000674387, trying alternate 1
+p_s_o_retry: failed 0.000788806, trying alternate 1
+p_s_o_retry: failed 0.00123057, trying alternate 1
+p_s_o_retry: failed 0.00149341, trying alternate 1
+p_s_o_retry: failed 0.00304069, trying alternate 1
+p_s_o_retry: failed 0.00648135, trying alternate 1
+p_s_o_retry: failed 0.0012962, trying alternate 1
+p_s_o_retry: failed 0.00222348, trying alternate 1
+p_s_o_retry: failed 0.00307749, trying alternate 1
+p_s_o_retry: failed 0.00438028, trying alternate 1
+p_s_o_retry: failed 0.00657605, trying alternate 1
+p_s_o_retry: failed 0.00129644, trying alternate 1
+p_s_o_retry: failed 0.00494739, trying alternate 1
+p_s_o_retry: failed 0.0103921, trying alternate 1
+p_s_o_retry: failed 0.00309496, trying alternate 1
+p_s_o_retry: failed 0.000429186, trying alternate 1
+p_s_o_retry: failed 0.000680938, trying alternate 1
+p_s_o_retry: failed 0.000796404, trying alternate 1
+p_s_o_retry: failed 0.0012437, trying alternate 1
+p_s_o_retry: failed 0.00150913, trying alternate 1
+p_s_o_retry: failed 0.00239992, trying alternate 1
+p_s_o_retry: failed 0.00305216, trying alternate 1
+p_s_o_retry: failed 0.00492641, trying alternate 1
+p_s_o_retry: failed 0.00282804, trying alternate 1
+p_s_o_retry: failed 0.00562239, trying alternate 1
+p_s_o_retry: failed 0.000523871, trying alternate 1
+p_s_o_retry: failed 0.000607595, trying alternate 1
+p_s_o_retry: failed 0.000667219, trying alternate 1
+p_s_o_retry: failed 0.000914023, trying alternate 1
+p_s_o_retry: failed 0.00109799, trying alternate 1
+p_s_o_retry: failed 0.00123283, trying alternate 1
+p_s_o_retry: failed 0.0152241, trying alternate 1
+p_s_o_retry: failed 0.00260249, trying alternate 1
+p_s_o_retry: failed 0.000725535, trying alternate 1
+p_s_o_retry: failed 0.00131132, trying alternate 1
+p_s_o_retry: failed 0.000470236, trying alternate 1
+p_s_o_retry: failed 0.000726238, trying alternate 1
+p_s_o_retry: failed 0.00081484, trying alternate 1
+p_s_o_retry: failed 0.00127704, trying alternate 1
+p_s_o_retry: failed 0.00147372, trying alternate 1
+p_s_o_retry: failed 0.00233673, trying alternate 1
+p_s_o_retry: failed 0.00279364, trying alternate 1
+p_s_o_retry: failed 0.00149166, trying alternate 1
+p_s_o_retry: failed 0.00236785, trying alternate 1
+p_s_o_retry: failed 0.00248353, trying alternate 1
+p_s_o_retry: failed 0.00666284, trying alternate 1
+p_s_o_retry: failed 0.000877546, trying alternate 1
+p_s_o_retry: failed 0.0108411, trying alternate 1
+p_s_o_retry: failed 0.0159306, trying alternate 1
+p_s_o_retry: failed 0.00156683, trying alternate 1
+p_s_o_retry: failed 0.000662738, trying alternate 1
+p_s_o_retry: failed 0.000821368, trying alternate 1
+p_s_o_retry: failed 0.00118614, trying alternate 1
+p_s_o_retry: failed 0.00154296, trying alternate 1
+p_s_o_retry: failed 0.00209497, trying alternate 1
+p_s_o_retry: failed 0.00241744, trying alternate 1
+p_s_o_retry: failed 0.00425125, trying alternate 1
+p_s_o_retry: failed 0.00507588, trying alternate 1
+p_s_o_retry: failed 0.00924043, trying alternate 1
+p_s_o_retry: failed 0.0115243, trying alternate 1
+p_s_o_retry: failed 0.00235364, trying alternate 1
+p_s_o_retry: failed 0.000433553, trying alternate 1
+p_s_o_retry: failed 0.000824289, trying alternate 1
+p_s_o_retry: failed 0.00129233, trying alternate 1
+p_s_o_retry: failed 0.000475839, trying alternate 1
+p_s_o_retry: failed 0.00073422, trying alternate 1
+Position error (m): 1.38e-03 RMS, 3.87e-03 max.
+Orientation error (radians): 1.16e-02 RMS, 3.07e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_hr_cal'
+              variant: 'default'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 1
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000508984, trying alternate 1
+p_s_o_retry: failed 0.000515842, trying alternate 1
+p_s_o_retry: failed 0.000511223, trying alternate 1
+p_s_o_retry: failed 0.000499528, trying alternate 1
+p_s_o_retry: failed 0.000506392, trying alternate 1
+Position error (m): 4.45e-04 RMS, 1.16e-03 max.
+Orientation error (radians): 5.76e-03 RMS, 1.45e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_hr_cal'
+              variant: 'nocorrect'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 0
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000508984, trying alternate 1
+p_s_o_retry: failed 0.000515842, trying alternate 1
+p_s_o_retry: failed 0.000511223, trying alternate 1
+p_s_o_retry: failed 0.000499528, trying alternate 1
+p_s_o_retry: failed 0.000506392, trying alternate 1
+Position error (m): 4.31e-04 RMS, 1.11e-03 max.
+Orientation error (radians): 5.76e-03 RMS, 1.45e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000499528, trying alternate 1
+p_s_o_retry: failed 0.000515842, trying alternate 1
+p_s_o_retry: failed 0.000508984, trying alternate 1
+p_s_o_retry: failed 0.0148666, trying alternate 1
+p_s_o_retry: failed 0.00259799, trying alternate 1
+p_s_o_retry: failed 0.000714702, trying alternate 1
+p_s_o_retry: failed 0.00128842, trying alternate 1
+p_s_o_retry: failed 0.00243094, trying alternate 1
+p_s_o_retry: failed 0.00481932, trying alternate 1
+p_s_o_retry: failed 0.000511223, trying alternate 1
+p_s_o_retry: failed 0.000506392, trying alternate 1
+p_s_o_retry: failed 0.0105988, trying alternate 1
+p_s_o_retry: failed 0.00565926, trying alternate 1
+p_s_o_retry: failed 0.00306315, trying alternate 1
+p_s_o_retry: failed 0.0157104, trying alternate 1
+p_s_o_retry: failed 0.00158757, trying alternate 1
+p_s_o_retry: failed 0.000651179, trying alternate 1
+p_s_o_retry: failed 0.000809849, trying alternate 1
+p_s_o_retry: failed 0.00116365, trying alternate 1
+p_s_o_retry: failed 0.00151855, trying alternate 1
+p_s_o_retry: failed 0.000524064, trying alternate 1
+p_s_o_retry: failed 0.000610575, trying alternate 1
+p_s_o_retry: failed 0.000673504, trying alternate 1
+p_s_o_retry: failed 0.000913267, trying alternate 1
+p_s_o_retry: failed 0.00110251, trying alternate 1
+p_s_o_retry: failed 0.00124426, trying alternate 1
+p_s_o_retry: failed 0.00210003, trying alternate 1
+p_s_o_retry: failed 0.000431199, trying alternate 1
+p_s_o_retry: failed 0.000475256, trying alternate 1
+p_s_o_retry: failed 0.000730147, trying alternate 1
+p_s_o_retry: failed 0.000823909, trying alternate 1
+p_s_o_retry: failed 0.00128503, trying alternate 1
+p_s_o_retry: failed 0.0100549, trying alternate 1
+p_s_o_retry: failed 0.0030316, trying alternate 1
+p_s_o_retry: failed 0.00236775, trying alternate 1
+p_s_o_retry: failed 0.00217629, trying alternate 1
+p_s_o_retry: failed 0.0030207, trying alternate 1
+p_s_o_retry: failed 0.00427166, trying alternate 1
+p_s_o_retry: failed 0.00643324, trying alternate 1
+p_s_o_retry: failed 0.00128702, trying alternate 1
+p_s_o_retry: failed 0.00243734, trying alternate 1
+p_s_o_retry: failed 0.00425001, trying alternate 1
+p_s_o_retry: failed 0.00511023, trying alternate 1
+p_s_o_retry: failed 0.00919454, trying alternate 1
+p_s_o_retry: failed 0.0115713, trying alternate 1
+p_s_o_retry: failed 0.000679952, trying alternate 1
+p_s_o_retry: failed 0.00149242, trying alternate 1
+p_s_o_retry: failed 0.00283141, trying alternate 1
+p_s_o_retry: failed 0.0056257, trying alternate 1
+p_s_o_retry: failed 0.000518104, trying alternate 1
+p_s_o_retry: failed 0.000603565, trying alternate 1
+p_s_o_retry: failed 0.000665813, trying alternate 1
+p_s_o_retry: failed 0.00910747, trying alternate 1
+p_s_o_retry: failed 0.0114097, trying alternate 1
+p_s_o_retry: failed 0.000673052, trying alternate 1
+p_s_o_retry: failed 0.00078807, trying alternate 1
+p_s_o_retry: failed 0.00122934, trying alternate 1
+p_s_o_retry: failed 0.00149363, trying alternate 1
+p_s_o_retry: failed 0.0023688, trying alternate 1
+p_s_o_retry: failed 0.014815, trying alternate 1
+p_s_o_retry: failed 0.00258334, trying alternate 1
+p_s_o_retry: failed 0.000710998, trying alternate 1
+p_s_o_retry: failed 0.00128338, trying alternate 1
+p_s_o_retry: failed 0.0024251, trying alternate 1
+p_s_o_retry: failed 0.000798555, trying alternate 1
+p_s_o_retry: failed 0.0012401, trying alternate 1
+p_s_o_retry: failed 0.00151157, trying alternate 1
+p_s_o_retry: failed 0.00238636, trying alternate 1
+p_s_o_retry: failed 0.00305046, trying alternate 1
+p_s_o_retry: failed 0.00488062, trying alternate 1
+p_s_o_retry: failed 0.000903025, trying alternate 1
+p_s_o_retry: failed 0.00109003, trying alternate 1
+p_s_o_retry: failed 0.00123065, trying alternate 1
+p_s_o_retry: failed 0.00207803, trying alternate 1
+p_s_o_retry: failed 0.00241481, trying alternate 1
+p_s_o_retry: failed 0.00421078, trying alternate 1
+p_s_o_retry: failed 0.00507102, trying alternate 1
+p_s_o_retry: failed 0.00301691, trying alternate 1
+p_s_o_retry: failed 0.00485557, trying alternate 1
+p_s_o_retry: failed 0.00657945, trying alternate 1
+p_s_o_retry: failed 0.000880254, trying alternate 1
+p_s_o_retry: failed 0.0106578, trying alternate 1
+p_s_o_retry: failed 0.0157049, trying alternate 1
+p_s_o_retry: failed 0.00157566, trying alternate 1
+p_s_o_retry: failed 0.000654615, trying alternate 1
+p_s_o_retry: failed 0.00481392, trying alternate 1
+p_s_o_retry: failed 0.0100617, trying alternate 1
+p_s_o_retry: failed 0.00303603, trying alternate 1
+p_s_o_retry: failed 0.000436386, trying alternate 1
+p_s_o_retry: failed 0.00664036, trying alternate 1
+p_s_o_retry: failed 0.000898983, trying alternate 1
+p_s_o_retry: failed 0.0106758, trying alternate 1
+p_s_o_retry: failed 0.0158033, trying alternate 1
+p_s_o_retry: failed 0.00160624, trying alternate 1
+p_s_o_retry: failed 0.000656367, trying alternate 1
+p_s_o_retry: failed 0.000815613, trying alternate 1
+p_s_o_retry: failed 0.00117219, trying alternate 1
+p_s_o_retry: failed 0.00912548, trying alternate 1
+p_s_o_retry: failed 0.0115017, trying alternate 1
+p_s_o_retry: failed 0.000673423, trying alternate 1
+p_s_o_retry: failed 0.000790924, trying alternate 1
+p_s_o_retry: failed 0.00122841, trying alternate 1
+p_s_o_retry: failed 0.00149745, trying alternate 1
+p_s_o_retry: failed 0.00236456, trying alternate 1
+p_s_o_retry: failed 0.000811543, trying alternate 1
+p_s_o_retry: failed 0.0011718, trying alternate 1
+p_s_o_retry: failed 0.00152446, trying alternate 1
+p_s_o_retry: failed 0.00219389, trying alternate 1
+p_s_o_retry: failed 0.00303639, trying alternate 1
+p_s_o_retry: failed 0.00431622, trying alternate 1
+p_s_o_retry: failed 0.000481029, trying alternate 1
+p_s_o_retry: failed 0.000738862, trying alternate 1
+p_s_o_retry: failed 0.000833399, trying alternate 1
+p_s_o_retry: failed 0.00129893, trying alternate 1
+p_s_o_retry: failed 0.000215317, trying alternate 2
+p_s_o_retry: failed 0.00150721, trying alternate 1
+p_s_o_retry: failed 0.00285424, trying alternate 1
+p_s_o_retry: failed 0.00152878, trying alternate 1
+p_s_o_retry: failed 0.00218983, trying alternate 1
+p_s_o_retry: failed 0.00303861, trying alternate 1
+p_s_o_retry: failed 0.0042951, trying alternate 1
+p_s_o_retry: failed 0.0064647, trying alternate 1
+p_s_o_retry: failed 0.00129831, trying alternate 1
+p_s_o_retry: failed 0.00302486, trying alternate 1
+p_s_o_retry: failed 0.00483978, trying alternate 1
+p_s_o_retry: failed 0.00659229, trying alternate 1
+p_s_o_retry: failed 0.00088735, trying alternate 1
+p_s_o_retry: failed 0.00647916, trying alternate 1
+p_s_o_retry: failed 0.00128707, trying alternate 1
+p_s_o_retry: failed 0.014963, trying alternate 1
+p_s_o_retry: failed 0.0025867, trying alternate 1
+p_s_o_retry: failed 0.000716624, trying alternate 1
+p_s_o_retry: failed 0.00129574, trying alternate 1
+p_s_o_retry: failed 0.000817604, trying alternate 1
+p_s_o_retry: failed 0.00127918, trying alternate 1
+p_s_o_retry: failed 0.00147992, trying alternate 1
+p_s_o_retry: failed 0.00280762, trying alternate 1
+p_s_o_retry: failed 0.0055863, trying alternate 1
+p_s_o_retry: failed 0.000517148, trying alternate 1
+p_s_o_retry: failed 0.00238549, trying alternate 1
+p_s_o_retry: failed 0.0030396, trying alternate 1
+p_s_o_retry: failed 0.00488352, trying alternate 1
+p_s_o_retry: failed 0.00661972, trying alternate 1
+p_s_o_retry: failed 0.000877763, trying alternate 1
+p_s_o_retry: failed 0.0106986, trying alternate 1
+p_s_o_retry: failed 0.0150273, trying alternate 1
+p_s_o_retry: failed 0.00259882, trying alternate 1
+p_s_o_retry: failed 0.000723589, trying alternate 1
+p_s_o_retry: failed 0.00130637, trying alternate 1
+p_s_o_retry: failed 0.0024703, trying alternate 1
+p_s_o_retry: failed 0.00060063, trying alternate 1
+p_s_o_retry: failed 0.000660552, trying alternate 1
+p_s_o_retry: failed 0.000902405, trying alternate 1
+p_s_o_retry: failed 0.0010856, trying alternate 1
+p_s_o_retry: failed 0.00122118, trying alternate 1
+p_s_o_retry: failed 0.00206964, trying alternate 1
+p_s_o_retry: failed 0.00239392, trying alternate 1
+p_s_o_retry: failed 0.00419548, trying alternate 1
+p_s_o_retry: failed 0.00502537, trying alternate 1
+p_s_o_retry: failed 0.0157708, trying alternate 1
+p_s_o_retry: failed 0.00156516, trying alternate 1
+p_s_o_retry: failed 0.000660425, trying alternate 1
+p_s_o_retry: failed 0.000819474, trying alternate 1
+p_s_o_retry: failed 0.00118047, trying alternate 1
+p_s_o_retry: failed 0.00153798, trying alternate 1
+p_s_o_retry: failed 0.00220919, trying alternate 1
+p_s_o_retry: failed 0.00245199, trying alternate 1
+p_s_o_retry: failed 0.00488067, trying alternate 1
+p_s_o_retry: failed 0.010233, trying alternate 1
+p_s_o_retry: failed 0.00490715, trying alternate 1
+p_s_o_retry: failed 0.01026, trying alternate 1
+p_s_o_retry: failed 0.00309438, trying alternate 1
+p_s_o_retry: failed 0.000428948, trying alternate 1
+p_s_o_retry: failed 0.000471525, trying alternate 1
+p_s_o_retry: failed 0.00072693, trying alternate 1
+p_s_o_retry: failed 0.00306103, trying alternate 1
+p_s_o_retry: failed 0.00652227, trying alternate 1
+p_s_o_retry: failed 0.00129501, trying alternate 1
+p_s_o_retry: failed 0.00559222, trying alternate 1
+p_s_o_retry: failed 0.00052142, trying alternate 1
+p_s_o_retry: failed 0.000605664, trying alternate 1
+p_s_o_retry: failed 0.000664858, trying alternate 1
+p_s_o_retry: failed 0.000909073, trying alternate 1
+p_s_o_retry: failed 0.00109355, trying alternate 1
+p_s_o_retry: failed 0.00122888, trying alternate 1
+p_s_o_retry: failed 0.00223296, trying alternate 1
+p_s_o_retry: failed 0.00309376, trying alternate 1
+p_s_o_retry: failed 0.00439971, trying alternate 1
+p_s_o_retry: failed 0.00661051, trying alternate 1
+p_s_o_retry: failed 0.00129235, trying alternate 1
+p_s_o_retry: failed 0.0153014, trying alternate 1
+p_s_o_retry: failed 0.00497003, trying alternate 1
+p_s_o_retry: failed 0.0104403, trying alternate 1
+p_s_o_retry: failed 0.0030816, trying alternate 1
+p_s_o_retry: failed 0.000432023, trying alternate 1
+p_s_o_retry: failed 0.0020839, trying alternate 1
+p_s_o_retry: failed 0.00240777, trying alternate 1
+p_s_o_retry: failed 0.00421962, trying alternate 1
+p_s_o_retry: failed 0.00504929, trying alternate 1
+p_s_o_retry: failed 0.00914525, trying alternate 1
+p_s_o_retry: failed 0.0114368, trying alternate 1
+p_s_o_retry: failed 0.000678833, trying alternate 1
+p_s_o_retry: failed 0.000684181, trying alternate 1
+p_s_o_retry: failed 0.000801285, trying alternate 1
+p_s_o_retry: failed 0.00124997, trying alternate 1
+p_s_o_retry: failed 0.00151859, trying alternate 1
+p_s_o_retry: failed 0.00241251, trying alternate 1
+p_s_o_retry: failed 0.00307129, trying alternate 1
+p_s_o_retry: failed 0.00495272, trying alternate 1
+p_s_o_retry: failed 0.00259259, trying alternate 1
+p_s_o_retry: failed 0.00072846, trying alternate 1
+p_s_o_retry: failed 0.00131691, trying alternate 1
+p_s_o_retry: failed 0.00249459, trying alternate 1
+p_s_o_retry: failed 0.000474172, trying alternate 1
+p_s_o_retry: failed 0.000731206, trying alternate 1
+p_s_o_retry: failed 0.000821826, trying alternate 1
+p_s_o_retry: failed 0.001286, trying alternate 1
+p_s_o_retry: failed 0.00148652, trying alternate 1
+p_s_o_retry: failed 0.00235343, trying alternate 1
+p_s_o_retry: failed 0.000279636, trying alternate 2
+p_s_o_retry: failed 0.00281792, trying alternate 1
+p_s_o_retry: failed 0.000795074, trying alternate 1
+p_s_o_retry: failed 0.00123869, trying alternate 1
+p_s_o_retry: failed 0.00150512, trying alternate 1
+p_s_o_retry: failed 0.000830253, trying alternate 1
+p_s_o_retry: failed 0.00130028, trying alternate 1
+p_s_o_retry: failed 0.00670353, trying alternate 1
+p_s_o_retry: failed 0.000876636, trying alternate 1
+p_s_o_retry: failed 0.0108989, trying alternate 1
+p_s_o_retry: failed 0.0160226, trying alternate 1
+p_s_o_retry: failed 0.00156317, trying alternate 1
+p_s_o_retry: failed 0.00066521, trying alternate 1
+p_s_o_retry: failed 0.000825529, trying alternate 1
+p_s_o_retry: failed 0.00119091, trying alternate 1
+p_s_o_retry: failed 0.00155103, trying alternate 1
+p_s_o_retry: failed 0.00285066, trying alternate 1
+p_s_o_retry: failed 0.00566898, trying alternate 1
+p_s_o_retry: failed 0.00052603, trying alternate 1
+p_s_o_retry: failed 0.000611129, trying alternate 1
+p_s_o_retry: failed 0.000672062, trying alternate 1
+p_s_o_retry: failed 0.000918174, trying alternate 1
+p_s_o_retry: failed 0.00150307, trying alternate 1
+p_s_o_retry: failed 0.00238374, trying alternate 1
+p_s_o_retry: failed 0.000479057, trying alternate 1
+p_s_o_retry: failed 0.00073833, trying alternate 1
+p_s_o_retry: failed 0.00110474, trying alternate 1
+p_s_o_retry: failed 0.00124203, trying alternate 1
+p_s_o_retry: failed 0.00210836, trying alternate 1
+p_s_o_retry: failed 0.00243562, trying alternate 1
+p_s_o_retry: failed 0.00427896, trying alternate 1
+p_s_o_retry: failed 0.00511347, trying alternate 1
+p_s_o_retry: failed 0.00930065, trying alternate 1
+p_s_o_retry: failed 0.0116061, trying alternate 1
+p_s_o_retry: failed 0.00236853, trying alternate 1
+p_s_o_retry: failed 0.000435737, trying alternate 1
+Position error (m): 6.80e-04 RMS, 2.03e-03 max.
+Orientation error (radians): 7.52e-03 RMS, 1.90e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000499528, trying alternate 1
+p_s_o_retry: failed 0.000515842, trying alternate 1
+p_s_o_retry: failed 0.000508984, trying alternate 1
+p_s_o_retry: failed 0.0148666, trying alternate 1
+p_s_o_retry: failed 0.00259799, trying alternate 1
+p_s_o_retry: failed 0.000714702, trying alternate 1
+p_s_o_retry: failed 0.00128842, trying alternate 1
+p_s_o_retry: failed 0.00243094, trying alternate 1
+p_s_o_retry: failed 0.000511223, trying alternate 1
+p_s_o_retry: failed 0.00481932, trying alternate 1
+p_s_o_retry: failed 0.0100549, trying alternate 1
+p_s_o_retry: failed 0.0030316, trying alternate 1
+p_s_o_retry: failed 0.00236775, trying alternate 1
+p_s_o_retry: failed 0.000506392, trying alternate 1
+p_s_o_retry: failed 0.00306315, trying alternate 1
+p_s_o_retry: failed 0.00565926, trying alternate 1
+p_s_o_retry: failed 0.0105988, trying alternate 1
+p_s_o_retry: failed 0.0157104, trying alternate 1
+p_s_o_retry: failed 0.00158757, trying alternate 1
+p_s_o_retry: failed 0.000651179, trying alternate 1
+p_s_o_retry: failed 0.000809849, trying alternate 1
+p_s_o_retry: failed 0.00116365, trying alternate 1
+p_s_o_retry: failed 0.00151855, trying alternate 1
+p_s_o_retry: failed 0.00217629, trying alternate 1
+p_s_o_retry: failed 0.000431199, trying alternate 1
+p_s_o_retry: failed 0.000475256, trying alternate 1
+p_s_o_retry: failed 0.000730147, trying alternate 1
+p_s_o_retry: failed 0.000823909, trying alternate 1
+p_s_o_retry: failed 0.00128503, trying alternate 1
+p_s_o_retry: failed 0.000524064, trying alternate 1
+p_s_o_retry: failed 0.000610575, trying alternate 1
+p_s_o_retry: failed 0.000673504, trying alternate 1
+p_s_o_retry: failed 0.000913267, trying alternate 1
+p_s_o_retry: failed 0.00110251, trying alternate 1
+p_s_o_retry: failed 0.00124426, trying alternate 1
+p_s_o_retry: failed 0.00210003, trying alternate 1
+p_s_o_retry: failed 0.00243734, trying alternate 1
+p_s_o_retry: failed 0.00910747, trying alternate 1
+p_s_o_retry: failed 0.00149242, trying alternate 1
+p_s_o_retry: failed 0.00283141, trying alternate 1
+p_s_o_retry: failed 0.0056257, trying alternate 1
+p_s_o_retry: failed 0.000518104, trying alternate 1
+p_s_o_retry: failed 0.000603565, trying alternate 1
+p_s_o_retry: failed 0.000665813, trying alternate 1
+p_s_o_retry: failed 0.00425001, trying alternate 1
+p_s_o_retry: failed 0.00511023, trying alternate 1
+p_s_o_retry: failed 0.00919454, trying alternate 1
+p_s_o_retry: failed 0.0115713, trying alternate 1
+p_s_o_retry: failed 0.000679952, trying alternate 1
+p_s_o_retry: failed 0.000798555, trying alternate 1
+p_s_o_retry: failed 0.0012401, trying alternate 1
+p_s_o_retry: failed 0.0030207, trying alternate 1
+p_s_o_retry: failed 0.00427166, trying alternate 1
+p_s_o_retry: failed 0.00643324, trying alternate 1
+p_s_o_retry: failed 0.00128702, trying alternate 1
+p_s_o_retry: failed 0.014815, trying alternate 1
+p_s_o_retry: failed 0.00258334, trying alternate 1
+p_s_o_retry: failed 0.0114097, trying alternate 1
+p_s_o_retry: failed 0.000673052, trying alternate 1
+p_s_o_retry: failed 0.00078807, trying alternate 1
+p_s_o_retry: failed 0.00122934, trying alternate 1
+p_s_o_retry: failed 0.00149363, trying alternate 1
+p_s_o_retry: failed 0.0023688, trying alternate 1
+p_s_o_retry: failed 0.00301691, trying alternate 1
+p_s_o_retry: failed 0.000903025, trying alternate 1
+p_s_o_retry: failed 0.00109003, trying alternate 1
+p_s_o_retry: failed 0.00123065, trying alternate 1
+p_s_o_retry: failed 0.00207803, trying alternate 1
+p_s_o_retry: failed 0.00241481, trying alternate 1
+p_s_o_retry: failed 0.00421078, trying alternate 1
+p_s_o_retry: failed 0.00507102, trying alternate 1
+p_s_o_retry: failed 0.00912548, trying alternate 1
+p_s_o_retry: failed 0.00151157, trying alternate 1
+p_s_o_retry: failed 0.00238636, trying alternate 1
+p_s_o_retry: failed 0.00305046, trying alternate 1
+p_s_o_retry: failed 0.00488062, trying alternate 1
+p_s_o_retry: failed 0.00664036, trying alternate 1
+p_s_o_retry: failed 0.000898983, trying alternate 1
+p_s_o_retry: failed 0.0106758, trying alternate 1
+p_s_o_retry: failed 0.000710998, trying alternate 1
+p_s_o_retry: failed 0.00128338, trying alternate 1
+p_s_o_retry: failed 0.0024251, trying alternate 1
+p_s_o_retry: failed 0.00481392, trying alternate 1
+p_s_o_retry: failed 0.00485557, trying alternate 1
+p_s_o_retry: failed 0.00657945, trying alternate 1
+p_s_o_retry: failed 0.000880254, trying alternate 1
+p_s_o_retry: failed 0.0106578, trying alternate 1
+p_s_o_retry: failed 0.0157049, trying alternate 1
+p_s_o_retry: failed 0.00157566, trying alternate 1
+p_s_o_retry: failed 0.000654615, trying alternate 1
+p_s_o_retry: failed 0.0115017, trying alternate 1
+p_s_o_retry: failed 0.000673423, trying alternate 1
+p_s_o_retry: failed 0.000790924, trying alternate 1
+p_s_o_retry: failed 0.00122841, trying alternate 1
+p_s_o_retry: failed 0.00149745, trying alternate 1
+p_s_o_retry: failed 0.00236456, trying alternate 1
+p_s_o_retry: failed 0.00302486, trying alternate 1
+p_s_o_retry: failed 0.00483978, trying alternate 1
+p_s_o_retry: failed 0.00659229, trying alternate 1
+p_s_o_retry: failed 0.00088735, trying alternate 1
+p_s_o_retry: failed 0.0158033, trying alternate 1
+p_s_o_retry: failed 0.00160624, trying alternate 1
+p_s_o_retry: failed 0.000656367, trying alternate 1
+p_s_o_retry: failed 0.000815613, trying alternate 1
+p_s_o_retry: failed 0.00117219, trying alternate 1
+p_s_o_retry: failed 0.00152878, trying alternate 1
+p_s_o_retry: failed 0.00218983, trying alternate 1
+p_s_o_retry: failed 0.0100617, trying alternate 1
+p_s_o_retry: failed 0.00303603, trying alternate 1
+p_s_o_retry: failed 0.000436386, trying alternate 1
+p_s_o_retry: failed 0.000811543, trying alternate 1
+p_s_o_retry: failed 0.0011718, trying alternate 1
+p_s_o_retry: failed 0.00152446, trying alternate 1
+p_s_o_retry: failed 0.00219389, trying alternate 1
+p_s_o_retry: failed 0.00303639, trying alternate 1
+p_s_o_retry: failed 0.00431622, trying alternate 1
+p_s_o_retry: failed 0.00303861, trying alternate 1
+p_s_o_retry: failed 0.0042951, trying alternate 1
+p_s_o_retry: failed 0.0064647, trying alternate 1
+p_s_o_retry: failed 0.00129831, trying alternate 1
+p_s_o_retry: failed 0.000481029, trying alternate 1
+p_s_o_retry: failed 0.000738862, trying alternate 1
+p_s_o_retry: failed 0.000833399, trying alternate 1
+p_s_o_retry: failed 0.00129893, trying alternate 1
+p_s_o_retry: failed 0.000215317, trying alternate 2
+p_s_o_retry: failed 0.00150721, trying alternate 1
+p_s_o_retry: failed 0.00285424, trying alternate 1
+p_s_o_retry: failed 0.00238549, trying alternate 1
+p_s_o_retry: failed 0.0030396, trying alternate 1
+p_s_o_retry: failed 0.00488352, trying alternate 1
+p_s_o_retry: failed 0.00661972, trying alternate 1
+p_s_o_retry: failed 0.000877763, trying alternate 1
+p_s_o_retry: failed 0.0106986, trying alternate 1
+p_s_o_retry: failed 0.000817604, trying alternate 1
+p_s_o_retry: failed 0.00127918, trying alternate 1
+p_s_o_retry: failed 0.00147992, trying alternate 1
+p_s_o_retry: failed 0.00280762, trying alternate 1
+p_s_o_retry: failed 0.0055863, trying alternate 1
+p_s_o_retry: failed 0.000517148, trying alternate 1
+p_s_o_retry: failed 0.00060063, trying alternate 1
+p_s_o_retry: failed 0.00647916, trying alternate 1
+p_s_o_retry: failed 0.00128707, trying alternate 1
+p_s_o_retry: failed 0.014963, trying alternate 1
+p_s_o_retry: failed 0.0025867, trying alternate 1
+p_s_o_retry: failed 0.000716624, trying alternate 1
+p_s_o_retry: failed 0.00129574, trying alternate 1
+p_s_o_retry: failed 0.0157708, trying alternate 1
+p_s_o_retry: failed 0.00156516, trying alternate 1
+p_s_o_retry: failed 0.000660425, trying alternate 1
+p_s_o_retry: failed 0.000819474, trying alternate 1
+p_s_o_retry: failed 0.00118047, trying alternate 1
+p_s_o_retry: failed 0.00153798, trying alternate 1
+p_s_o_retry: failed 0.00220919, trying alternate 1
+p_s_o_retry: failed 0.0150273, trying alternate 1
+p_s_o_retry: failed 0.00259882, trying alternate 1
+p_s_o_retry: failed 0.000723589, trying alternate 1
+p_s_o_retry: failed 0.00130637, trying alternate 1
+p_s_o_retry: failed 0.0024703, trying alternate 1
+p_s_o_retry: failed 0.000660552, trying alternate 1
+p_s_o_retry: failed 0.000902405, trying alternate 1
+p_s_o_retry: failed 0.0010856, trying alternate 1
+p_s_o_retry: failed 0.00122118, trying alternate 1
+p_s_o_retry: failed 0.00206964, trying alternate 1
+p_s_o_retry: failed 0.00239392, trying alternate 1
+p_s_o_retry: failed 0.00419548, trying alternate 1
+p_s_o_retry: failed 0.00502537, trying alternate 1
+p_s_o_retry: failed 0.00245199, trying alternate 1
+p_s_o_retry: failed 0.00488067, trying alternate 1
+p_s_o_retry: failed 0.010233, trying alternate 1
+p_s_o_retry: failed 0.00306103, trying alternate 1
+p_s_o_retry: failed 0.00652227, trying alternate 1
+p_s_o_retry: failed 0.00129501, trying alternate 1
+p_s_o_retry: failed 0.00490715, trying alternate 1
+p_s_o_retry: failed 0.01026, trying alternate 1
+p_s_o_retry: failed 0.00309438, trying alternate 1
+p_s_o_retry: failed 0.000428948, trying alternate 1
+p_s_o_retry: failed 0.000471525, trying alternate 1
+p_s_o_retry: failed 0.00072693, trying alternate 1
+p_s_o_retry: failed 0.00559222, trying alternate 1
+p_s_o_retry: failed 0.00052142, trying alternate 1
+p_s_o_retry: failed 0.000605664, trying alternate 1
+p_s_o_retry: failed 0.000664858, trying alternate 1
+p_s_o_retry: failed 0.000909073, trying alternate 1
+p_s_o_retry: failed 0.00109355, trying alternate 1
+p_s_o_retry: failed 0.00122888, trying alternate 1
+p_s_o_retry: failed 0.00497003, trying alternate 1
+p_s_o_retry: failed 0.0104403, trying alternate 1
+p_s_o_retry: failed 0.0030816, trying alternate 1
+p_s_o_retry: failed 0.000432023, trying alternate 1
+p_s_o_retry: failed 0.00223296, trying alternate 1
+p_s_o_retry: failed 0.00309376, trying alternate 1
+p_s_o_retry: failed 0.00439971, trying alternate 1
+p_s_o_retry: failed 0.00661051, trying alternate 1
+p_s_o_retry: failed 0.00129235, trying alternate 1
+p_s_o_retry: failed 0.0020839, trying alternate 1
+p_s_o_retry: failed 0.00240777, trying alternate 1
+p_s_o_retry: failed 0.00421962, trying alternate 1
+p_s_o_retry: failed 0.00504929, trying alternate 1
+p_s_o_retry: failed 0.00914525, trying alternate 1
+p_s_o_retry: failed 0.0114368, trying alternate 1
+p_s_o_retry: failed 0.000678833, trying alternate 1
+p_s_o_retry: failed 0.000684181, trying alternate 1
+p_s_o_retry: failed 0.000801285, trying alternate 1
+p_s_o_retry: failed 0.00124997, trying alternate 1
+p_s_o_retry: failed 0.00151859, trying alternate 1
+p_s_o_retry: failed 0.00241251, trying alternate 1
+p_s_o_retry: failed 0.00307129, trying alternate 1
+p_s_o_retry: failed 0.00495272, trying alternate 1
+p_s_o_retry: failed 0.0153014, trying alternate 1
+p_s_o_retry: failed 0.00259259, trying alternate 1
+p_s_o_retry: failed 0.00072846, trying alternate 1
+p_s_o_retry: failed 0.00131691, trying alternate 1
+p_s_o_retry: failed 0.00249459, trying alternate 1
+p_s_o_retry: failed 0.000795074, trying alternate 1
+p_s_o_retry: failed 0.00123869, trying alternate 1
+p_s_o_retry: failed 0.00150512, trying alternate 1
+p_s_o_retry: failed 0.000474172, trying alternate 1
+p_s_o_retry: failed 0.000731206, trying alternate 1
+p_s_o_retry: failed 0.000821826, trying alternate 1
+p_s_o_retry: failed 0.001286, trying alternate 1
+p_s_o_retry: failed 0.00148652, trying alternate 1
+p_s_o_retry: failed 0.00235343, trying alternate 1
+p_s_o_retry: failed 0.000279636, trying alternate 2
+p_s_o_retry: failed 0.00281792, trying alternate 1
+p_s_o_retry: failed 0.00150307, trying alternate 1
+p_s_o_retry: failed 0.00238374, trying alternate 1
+p_s_o_retry: failed 0.000830253, trying alternate 1
+p_s_o_retry: failed 0.00130028, trying alternate 1
+p_s_o_retry: failed 0.00670353, trying alternate 1
+p_s_o_retry: failed 0.000876636, trying alternate 1
+p_s_o_retry: failed 0.0108989, trying alternate 1
+p_s_o_retry: failed 0.0160226, trying alternate 1
+p_s_o_retry: failed 0.00156317, trying alternate 1
+p_s_o_retry: failed 0.00066521, trying alternate 1
+p_s_o_retry: failed 0.000825529, trying alternate 1
+p_s_o_retry: failed 0.00119091, trying alternate 1
+p_s_o_retry: failed 0.00155103, trying alternate 1
+p_s_o_retry: failed 0.000479057, trying alternate 1
+p_s_o_retry: failed 0.00073833, trying alternate 1
+p_s_o_retry: failed 0.00285066, trying alternate 1
+p_s_o_retry: failed 0.00566898, trying alternate 1
+p_s_o_retry: failed 0.00052603, trying alternate 1
+p_s_o_retry: failed 0.000611129, trying alternate 1
+p_s_o_retry: failed 0.000672062, trying alternate 1
+p_s_o_retry: failed 0.000918174, trying alternate 1
+p_s_o_retry: failed 0.00110474, trying alternate 1
+p_s_o_retry: failed 0.00124203, trying alternate 1
+p_s_o_retry: failed 0.00210836, trying alternate 1
+p_s_o_retry: failed 0.00243562, trying alternate 1
+p_s_o_retry: failed 0.00427896, trying alternate 1
+p_s_o_retry: failed 0.00511347, trying alternate 1
+p_s_o_retry: failed 0.00930065, trying alternate 1
+p_s_o_retry: failed 0.0116061, trying alternate 1
+p_s_o_retry: failed 0.00236853, trying alternate 1
+p_s_o_retry: failed 0.000435737, trying alternate 1
+Position error (m): 7.00e-04 RMS, 2.32e-03 max.
+Orientation error (radians): 7.52e-03 RMS, 1.90e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_skew_hr_cal'
+              variant: 'default'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 1
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000508984, trying alternate 1
+p_s_o_retry: failed 0.000515842, trying alternate 1
+p_s_o_retry: failed 0.000511223, trying alternate 1
+p_s_o_retry: failed 0.000499528, trying alternate 1
+p_s_o_retry: failed 0.000506392, trying alternate 1
+Position error (m): 3.78e-04 RMS, 1.09e-03 max.
+Orientation error (radians): 5.76e-03 RMS, 1.45e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_skew_hr_cal'
+              variant: 'nocorrect'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 0
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000508984, trying alternate 1
+p_s_o_retry: failed 0.000515842, trying alternate 1
+p_s_o_retry: failed 0.000511223, trying alternate 1
+p_s_o_retry: failed 0.000499528, trying alternate 1
+p_s_o_retry: failed 0.000506392, trying alternate 1
+Position error (m): 4.31e-04 RMS, 1.11e-03 max.
+Orientation error (radians): 5.76e-03 RMS, 1.45e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_skew_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000499528, trying alternate 1
+p_s_o_retry: failed 0.000515842, trying alternate 1
+p_s_o_retry: failed 0.000508984, trying alternate 1
+p_s_o_retry: failed 0.0148666, trying alternate 1
+p_s_o_retry: failed 0.00259799, trying alternate 1
+p_s_o_retry: failed 0.000714702, trying alternate 1
+p_s_o_retry: failed 0.00128842, trying alternate 1
+p_s_o_retry: failed 0.00243094, trying alternate 1
+p_s_o_retry: failed 0.000511223, trying alternate 1
+p_s_o_retry: failed 0.00481932, trying alternate 1
+p_s_o_retry: failed 0.0100549, trying alternate 1
+p_s_o_retry: failed 0.0030316, trying alternate 1
+p_s_o_retry: failed 0.00236775, trying alternate 1
+p_s_o_retry: failed 0.000506392, trying alternate 1
+p_s_o_retry: failed 0.00565926, trying alternate 1
+p_s_o_retry: failed 0.00306315, trying alternate 1
+p_s_o_retry: failed 0.0105988, trying alternate 1
+p_s_o_retry: failed 0.000431199, trying alternate 1
+p_s_o_retry: failed 0.000475256, trying alternate 1
+p_s_o_retry: failed 0.000730147, trying alternate 1
+p_s_o_retry: failed 0.000823909, trying alternate 1
+p_s_o_retry: failed 0.00128503, trying alternate 1
+p_s_o_retry: failed 0.0157104, trying alternate 1
+p_s_o_retry: failed 0.00158757, trying alternate 1
+p_s_o_retry: failed 0.000651179, trying alternate 1
+p_s_o_retry: failed 0.000809849, trying alternate 1
+p_s_o_retry: failed 0.00116365, trying alternate 1
+p_s_o_retry: failed 0.00151855, trying alternate 1
+p_s_o_retry: failed 0.00217629, trying alternate 1
+p_s_o_retry: failed 0.000524064, trying alternate 1
+p_s_o_retry: failed 0.000610575, trying alternate 1
+p_s_o_retry: failed 0.000673504, trying alternate 1
+p_s_o_retry: failed 0.000913267, trying alternate 1
+p_s_o_retry: failed 0.00110251, trying alternate 1
+p_s_o_retry: failed 0.00124426, trying alternate 1
+p_s_o_retry: failed 0.00210003, trying alternate 1
+p_s_o_retry: failed 0.00243734, trying alternate 1
+p_s_o_retry: failed 0.00425001, trying alternate 1
+p_s_o_retry: failed 0.00910747, trying alternate 1
+p_s_o_retry: failed 0.00149242, trying alternate 1
+p_s_o_retry: failed 0.00283141, trying alternate 1
+p_s_o_retry: failed 0.0056257, trying alternate 1
+p_s_o_retry: failed 0.000518104, trying alternate 1
+p_s_o_retry: failed 0.000603565, trying alternate 1
+p_s_o_retry: failed 0.000665813, trying alternate 1
+p_s_o_retry: failed 0.000903025, trying alternate 1
+p_s_o_retry: failed 0.0030207, trying alternate 1
+p_s_o_retry: failed 0.00427166, trying alternate 1
+p_s_o_retry: failed 0.00643324, trying alternate 1
+p_s_o_retry: failed 0.00128702, trying alternate 1
+p_s_o_retry: failed 0.014815, trying alternate 1
+p_s_o_retry: failed 0.00258334, trying alternate 1
+p_s_o_retry: failed 0.00511023, trying alternate 1
+p_s_o_retry: failed 0.00919454, trying alternate 1
+p_s_o_retry: failed 0.0115713, trying alternate 1
+p_s_o_retry: failed 0.000679952, trying alternate 1
+p_s_o_retry: failed 0.000798555, trying alternate 1
+p_s_o_retry: failed 0.0012401, trying alternate 1
+p_s_o_retry: failed 0.00151157, trying alternate 1
+p_s_o_retry: failed 0.00238636, trying alternate 1
+p_s_o_retry: failed 0.0114097, trying alternate 1
+p_s_o_retry: failed 0.000673052, trying alternate 1
+p_s_o_retry: failed 0.00078807, trying alternate 1
+p_s_o_retry: failed 0.00122934, trying alternate 1
+p_s_o_retry: failed 0.00149363, trying alternate 1
+p_s_o_retry: failed 0.0023688, trying alternate 1
+p_s_o_retry: failed 0.00109003, trying alternate 1
+p_s_o_retry: failed 0.00123065, trying alternate 1
+p_s_o_retry: failed 0.00207803, trying alternate 1
+p_s_o_retry: failed 0.00241481, trying alternate 1
+p_s_o_retry: failed 0.00421078, trying alternate 1
+p_s_o_retry: failed 0.00507102, trying alternate 1
+p_s_o_retry: failed 0.00912548, trying alternate 1
+p_s_o_retry: failed 0.0115017, trying alternate 1
+p_s_o_retry: failed 0.000710998, trying alternate 1
+p_s_o_retry: failed 0.00128338, trying alternate 1
+p_s_o_retry: failed 0.0024251, trying alternate 1
+p_s_o_retry: failed 0.00481392, trying alternate 1
+p_s_o_retry: failed 0.00305046, trying alternate 1
+p_s_o_retry: failed 0.00488062, trying alternate 1
+p_s_o_retry: failed 0.00664036, trying alternate 1
+p_s_o_retry: failed 0.000898983, trying alternate 1
+p_s_o_retry: failed 0.0106758, trying alternate 1
+p_s_o_retry: failed 0.0158033, trying alternate 1
+p_s_o_retry: failed 0.00160624, trying alternate 1
+p_s_o_retry: failed 0.000656367, trying alternate 1
+p_s_o_retry: failed 0.00301691, trying alternate 1
+p_s_o_retry: failed 0.00485557, trying alternate 1
+p_s_o_retry: failed 0.00657945, trying alternate 1
+p_s_o_retry: failed 0.000880254, trying alternate 1
+p_s_o_retry: failed 0.0106578, trying alternate 1
+p_s_o_retry: failed 0.0157049, trying alternate 1
+p_s_o_retry: failed 0.00157566, trying alternate 1
+p_s_o_retry: failed 0.000673423, trying alternate 1
+p_s_o_retry: failed 0.000790924, trying alternate 1
+p_s_o_retry: failed 0.00122841, trying alternate 1
+p_s_o_retry: failed 0.00149745, trying alternate 1
+p_s_o_retry: failed 0.00236456, trying alternate 1
+p_s_o_retry: failed 0.00302486, trying alternate 1
+p_s_o_retry: failed 0.00483978, trying alternate 1
+p_s_o_retry: failed 0.0100617, trying alternate 1
+p_s_o_retry: failed 0.00303603, trying alternate 1
+p_s_o_retry: failed 0.000436386, trying alternate 1
+p_s_o_retry: failed 0.000481029, trying alternate 1
+p_s_o_retry: failed 0.000815613, trying alternate 1
+p_s_o_retry: failed 0.00117219, trying alternate 1
+p_s_o_retry: failed 0.00152878, trying alternate 1
+p_s_o_retry: failed 0.00218983, trying alternate 1
+p_s_o_retry: failed 0.00303861, trying alternate 1
+p_s_o_retry: failed 0.0042951, trying alternate 1
+p_s_o_retry: failed 0.0064647, trying alternate 1
+p_s_o_retry: failed 0.00129831, trying alternate 1
+p_s_o_retry: failed 0.000654615, trying alternate 1
+p_s_o_retry: failed 0.000811543, trying alternate 1
+p_s_o_retry: failed 0.0011718, trying alternate 1
+p_s_o_retry: failed 0.00152446, trying alternate 1
+p_s_o_retry: failed 0.00219389, trying alternate 1
+p_s_o_retry: failed 0.00303639, trying alternate 1
+p_s_o_retry: failed 0.00659229, trying alternate 1
+p_s_o_retry: failed 0.00088735, trying alternate 1
+p_s_o_retry: failed 0.000738862, trying alternate 1
+p_s_o_retry: failed 0.000833399, trying alternate 1
+p_s_o_retry: failed 0.00129893, trying alternate 1
+p_s_o_retry: failed 0.000215317, trying alternate 2
+p_s_o_retry: failed 0.00150721, trying alternate 1
+p_s_o_retry: failed 0.00285424, trying alternate 1
+p_s_o_retry: failed 0.00431622, trying alternate 1
+p_s_o_retry: failed 0.00647916, trying alternate 1
+p_s_o_retry: failed 0.00128707, trying alternate 1
+p_s_o_retry: failed 0.014963, trying alternate 1
+p_s_o_retry: failed 0.0025867, trying alternate 1
+p_s_o_retry: failed 0.000716624, trying alternate 1
+p_s_o_retry: failed 0.00238549, trying alternate 1
+p_s_o_retry: failed 0.0030396, trying alternate 1
+p_s_o_retry: failed 0.00488352, trying alternate 1
+p_s_o_retry: failed 0.00661972, trying alternate 1
+p_s_o_retry: failed 0.000877763, trying alternate 1
+p_s_o_retry: failed 0.0106986, trying alternate 1
+p_s_o_retry: failed 0.0150273, trying alternate 1
+p_s_o_retry: failed 0.00259882, trying alternate 1
+p_s_o_retry: failed 0.000723589, trying alternate 1
+p_s_o_retry: failed 0.00130637, trying alternate 1
+p_s_o_retry: failed 0.0024703, trying alternate 1
+p_s_o_retry: failed 0.000817604, trying alternate 1
+p_s_o_retry: failed 0.00127918, trying alternate 1
+p_s_o_retry: failed 0.00147992, trying alternate 1
+p_s_o_retry: failed 0.00280762, trying alternate 1
+p_s_o_retry: failed 0.0055863, trying alternate 1
+p_s_o_retry: failed 0.000517148, trying alternate 1
+p_s_o_retry: failed 0.00060063, trying alternate 1
+p_s_o_retry: failed 0.00129574, trying alternate 1
+p_s_o_retry: failed 0.00245199, trying alternate 1
+p_s_o_retry: failed 0.00488067, trying alternate 1
+p_s_o_retry: failed 0.0157708, trying alternate 1
+p_s_o_retry: failed 0.00156516, trying alternate 1
+p_s_o_retry: failed 0.000660425, trying alternate 1
+p_s_o_retry: failed 0.000819474, trying alternate 1
+p_s_o_retry: failed 0.00118047, trying alternate 1
+p_s_o_retry: failed 0.00153798, trying alternate 1
+p_s_o_retry: failed 0.00220919, trying alternate 1
+p_s_o_retry: failed 0.00306103, trying alternate 1
+p_s_o_retry: failed 0.00652227, trying alternate 1
+p_s_o_retry: failed 0.00129501, trying alternate 1
+p_s_o_retry: failed 0.000660552, trying alternate 1
+p_s_o_retry: failed 0.000902405, trying alternate 1
+p_s_o_retry: failed 0.0010856, trying alternate 1
+p_s_o_retry: failed 0.00122118, trying alternate 1
+p_s_o_retry: failed 0.00206964, trying alternate 1
+p_s_o_retry: failed 0.00239392, trying alternate 1
+p_s_o_retry: failed 0.00419548, trying alternate 1
+p_s_o_retry: failed 0.00502537, trying alternate 1
+p_s_o_retry: failed 0.010233, trying alternate 1
+p_s_o_retry: failed 0.00490715, trying alternate 1
+p_s_o_retry: failed 0.01026, trying alternate 1
+p_s_o_retry: failed 0.00309438, trying alternate 1
+p_s_o_retry: failed 0.000428948, trying alternate 1
+p_s_o_retry: failed 0.000471525, trying alternate 1
+p_s_o_retry: failed 0.00072693, trying alternate 1
+p_s_o_retry: failed 0.00497003, trying alternate 1
+p_s_o_retry: failed 0.0104403, trying alternate 1
+p_s_o_retry: failed 0.0030816, trying alternate 1
+p_s_o_retry: failed 0.000432023, trying alternate 1
+p_s_o_retry: failed 0.00559222, trying alternate 1
+p_s_o_retry: failed 0.00052142, trying alternate 1
+p_s_o_retry: failed 0.000605664, trying alternate 1
+p_s_o_retry: failed 0.000664858, trying alternate 1
+p_s_o_retry: failed 0.000909073, trying alternate 1
+p_s_o_retry: failed 0.00109355, trying alternate 1
+p_s_o_retry: failed 0.00122888, trying alternate 1
+p_s_o_retry: failed 0.0020839, trying alternate 1
+p_s_o_retry: failed 0.00223296, trying alternate 1
+p_s_o_retry: failed 0.00309376, trying alternate 1
+p_s_o_retry: failed 0.00439971, trying alternate 1
+p_s_o_retry: failed 0.00661051, trying alternate 1
+p_s_o_retry: failed 0.00129235, trying alternate 1
+p_s_o_retry: failed 0.0153014, trying alternate 1
+p_s_o_retry: failed 0.000474172, trying alternate 1
+p_s_o_retry: failed 0.000731206, trying alternate 1
+p_s_o_retry: failed 0.000821826, trying alternate 1
+p_s_o_retry: failed 0.001286, trying alternate 1
+p_s_o_retry: failed 0.00148652, trying alternate 1
+p_s_o_retry: failed 0.00235343, trying alternate 1
+p_s_o_retry: failed 0.00240777, trying alternate 1
+p_s_o_retry: failed 0.00421962, trying alternate 1
+p_s_o_retry: failed 0.00504929, trying alternate 1
+p_s_o_retry: failed 0.00914525, trying alternate 1
+p_s_o_retry: failed 0.0114368, trying alternate 1
+p_s_o_retry: failed 0.000678833, trying alternate 1
+p_s_o_retry: failed 0.000795074, trying alternate 1
+p_s_o_retry: failed 0.00259259, trying alternate 1
+p_s_o_retry: failed 0.00072846, trying alternate 1
+p_s_o_retry: failed 0.00131691, trying alternate 1
+p_s_o_retry: failed 0.00249459, trying alternate 1
+p_s_o_retry: failed 0.000684181, trying alternate 1
+p_s_o_retry: failed 0.000801285, trying alternate 1
+p_s_o_retry: failed 0.00124997, trying alternate 1
+p_s_o_retry: failed 0.00151859, trying alternate 1
+p_s_o_retry: failed 0.00241251, trying alternate 1
+p_s_o_retry: failed 0.00307129, trying alternate 1
+p_s_o_retry: failed 0.00495272, trying alternate 1
+p_s_o_retry: failed 0.000279636, trying alternate 2
+p_s_o_retry: failed 0.00281792, trying alternate 1
+p_s_o_retry: failed 0.00123869, trying alternate 1
+p_s_o_retry: failed 0.00150512, trying alternate 1
+p_s_o_retry: failed 0.000830253, trying alternate 1
+p_s_o_retry: failed 0.00130028, trying alternate 1
+p_s_o_retry: failed 0.00150307, trying alternate 1
+p_s_o_retry: failed 0.00238374, trying alternate 1
+p_s_o_retry: failed 0.00670353, trying alternate 1
+p_s_o_retry: failed 0.000876636, trying alternate 1
+p_s_o_retry: failed 0.0108989, trying alternate 1
+p_s_o_retry: failed 0.0160226, trying alternate 1
+p_s_o_retry: failed 0.00156317, trying alternate 1
+p_s_o_retry: failed 0.00066521, trying alternate 1
+p_s_o_retry: failed 0.000825529, trying alternate 1
+p_s_o_retry: failed 0.00119091, trying alternate 1
+p_s_o_retry: failed 0.00155103, trying alternate 1
+p_s_o_retry: failed 0.000479057, trying alternate 1
+p_s_o_retry: failed 0.00073833, trying alternate 1
+p_s_o_retry: failed 0.00285066, trying alternate 1
+p_s_o_retry: failed 0.00566898, trying alternate 1
+p_s_o_retry: failed 0.00052603, trying alternate 1
+p_s_o_retry: failed 0.000611129, trying alternate 1
+p_s_o_retry: failed 0.000672062, trying alternate 1
+p_s_o_retry: failed 0.000918174, trying alternate 1
+p_s_o_retry: failed 0.00110474, trying alternate 1
+p_s_o_retry: failed 0.00124203, trying alternate 1
+p_s_o_retry: failed 0.00210836, trying alternate 1
+p_s_o_retry: failed 0.00243562, trying alternate 1
+p_s_o_retry: failed 0.00427896, trying alternate 1
+p_s_o_retry: failed 0.00511347, trying alternate 1
+p_s_o_retry: failed 0.00930065, trying alternate 1
+p_s_o_retry: failed 0.0116061, trying alternate 1
+p_s_o_retry: failed 0.00236853, trying alternate 1
+p_s_o_retry: failed 0.000435737, trying alternate 1
+Position error (m): 7.46e-04 RMS, 1.92e-03 max.
+Orientation error (radians): 7.52e-03 RMS, 1.90e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_skew_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'optimize'
+p_s_o_retry: failed 0.000499528, trying alternate 1
+p_s_o_retry: failed 0.000515842, trying alternate 1
+p_s_o_retry: failed 0.000508984, trying alternate 1
+p_s_o_retry: failed 0.0148666, trying alternate 1
+p_s_o_retry: failed 0.00259799, trying alternate 1
+p_s_o_retry: failed 0.000714702, trying alternate 1
+p_s_o_retry: failed 0.00128842, trying alternate 1
+p_s_o_retry: failed 0.00243094, trying alternate 1
+p_s_o_retry: failed 0.000511223, trying alternate 1
+p_s_o_retry: failed 0.00481932, trying alternate 1
+p_s_o_retry: failed 0.0100549, trying alternate 1
+p_s_o_retry: failed 0.0030316, trying alternate 1
+p_s_o_retry: failed 0.00236775, trying alternate 1
+p_s_o_retry: failed 0.000506392, trying alternate 1
+p_s_o_retry: failed 0.0105988, trying alternate 1
+p_s_o_retry: failed 0.00565926, trying alternate 1
+p_s_o_retry: failed 0.00306315, trying alternate 1
+p_s_o_retry: failed 0.0157104, trying alternate 1
+p_s_o_retry: failed 0.00158757, trying alternate 1
+p_s_o_retry: failed 0.000651179, trying alternate 1
+p_s_o_retry: failed 0.000809849, trying alternate 1
+p_s_o_retry: failed 0.00116365, trying alternate 1
+p_s_o_retry: failed 0.00151855, trying alternate 1
+p_s_o_retry: failed 0.00217629, trying alternate 1
+p_s_o_retry: failed 0.000524064, trying alternate 1
+p_s_o_retry: failed 0.000610575, trying alternate 1
+p_s_o_retry: failed 0.000673504, trying alternate 1
+p_s_o_retry: failed 0.000913267, trying alternate 1
+p_s_o_retry: failed 0.00110251, trying alternate 1
+p_s_o_retry: failed 0.00124426, trying alternate 1
+p_s_o_retry: failed 0.00210003, trying alternate 1
+p_s_o_retry: failed 0.00243734, trying alternate 1
+p_s_o_retry: failed 0.000431199, trying alternate 1
+p_s_o_retry: failed 0.000475256, trying alternate 1
+p_s_o_retry: failed 0.000730147, trying alternate 1
+p_s_o_retry: failed 0.000823909, trying alternate 1
+p_s_o_retry: failed 0.00128503, trying alternate 1
+p_s_o_retry: failed 0.00149242, trying alternate 1
+p_s_o_retry: failed 0.00910747, trying alternate 1
+p_s_o_retry: failed 0.0030207, trying alternate 1
+p_s_o_retry: failed 0.00427166, trying alternate 1
+p_s_o_retry: failed 0.00643324, trying alternate 1
+p_s_o_retry: failed 0.00128702, trying alternate 1
+p_s_o_retry: failed 0.014815, trying alternate 1
+p_s_o_retry: failed 0.00258334, trying alternate 1
+p_s_o_retry: failed 0.00425001, trying alternate 1
+p_s_o_retry: failed 0.00511023, trying alternate 1
+p_s_o_retry: failed 0.00919454, trying alternate 1
+p_s_o_retry: failed 0.0115713, trying alternate 1
+p_s_o_retry: failed 0.000679952, trying alternate 1
+p_s_o_retry: failed 0.000798555, trying alternate 1
+p_s_o_retry: failed 0.0012401, trying alternate 1
+p_s_o_retry: failed 0.00283141, trying alternate 1
+p_s_o_retry: failed 0.0056257, trying alternate 1
+p_s_o_retry: failed 0.000518104, trying alternate 1
+p_s_o_retry: failed 0.000603565, trying alternate 1
+p_s_o_retry: failed 0.000665813, trying alternate 1
+p_s_o_retry: failed 0.000903025, trying alternate 1
+p_s_o_retry: failed 0.0114097, trying alternate 1
+p_s_o_retry: failed 0.000673052, trying alternate 1
+p_s_o_retry: failed 0.00078807, trying alternate 1
+p_s_o_retry: failed 0.00122934, trying alternate 1
+p_s_o_retry: failed 0.00149363, trying alternate 1
+p_s_o_retry: failed 0.0023688, trying alternate 1
+p_s_o_retry: failed 0.00301691, trying alternate 1
+p_s_o_retry: failed 0.000710998, trying alternate 1
+p_s_o_retry: failed 0.00128338, trying alternate 1
+p_s_o_retry: failed 0.0024251, trying alternate 1
+p_s_o_retry: failed 0.00481392, trying alternate 1
+p_s_o_retry: failed 0.00151157, trying alternate 1
+p_s_o_retry: failed 0.00238636, trying alternate 1
+p_s_o_retry: failed 0.00305046, trying alternate 1
+p_s_o_retry: failed 0.00488062, trying alternate 1
+p_s_o_retry: failed 0.00664036, trying alternate 1
+p_s_o_retry: failed 0.000898983, trying alternate 1
+p_s_o_retry: failed 0.00109003, trying alternate 1
+p_s_o_retry: failed 0.00123065, trying alternate 1
+p_s_o_retry: failed 0.00207803, trying alternate 1
+p_s_o_retry: failed 0.00241481, trying alternate 1
+p_s_o_retry: failed 0.00421078, trying alternate 1
+p_s_o_retry: failed 0.00507102, trying alternate 1
+p_s_o_retry: failed 0.00912548, trying alternate 1
+p_s_o_retry: failed 0.00485557, trying alternate 1
+p_s_o_retry: failed 0.00657945, trying alternate 1
+p_s_o_retry: failed 0.000880254, trying alternate 1
+p_s_o_retry: failed 0.0106578, trying alternate 1
+p_s_o_retry: failed 0.0157049, trying alternate 1
+p_s_o_retry: failed 0.00157566, trying alternate 1
+p_s_o_retry: failed 0.0100617, trying alternate 1
+p_s_o_retry: failed 0.00303603, trying alternate 1
+p_s_o_retry: failed 0.000436386, trying alternate 1
+p_s_o_retry: failed 0.0106758, trying alternate 1
+p_s_o_retry: failed 0.0158033, trying alternate 1
+p_s_o_retry: failed 0.00160624, trying alternate 1
+p_s_o_retry: failed 0.000656367, trying alternate 1
+p_s_o_retry: failed 0.000815613, trying alternate 1
+p_s_o_retry: failed 0.00117219, trying alternate 1
+p_s_o_retry: failed 0.0115017, trying alternate 1
+p_s_o_retry: failed 0.000673423, trying alternate 1
+p_s_o_retry: failed 0.000790924, trying alternate 1
+p_s_o_retry: failed 0.00122841, trying alternate 1
+p_s_o_retry: failed 0.00149745, trying alternate 1
+p_s_o_retry: failed 0.00236456, trying alternate 1
+p_s_o_retry: failed 0.000654615, trying alternate 1
+p_s_o_retry: failed 0.000811543, trying alternate 1
+p_s_o_retry: failed 0.0011718, trying alternate 1
+p_s_o_retry: failed 0.00152446, trying alternate 1
+p_s_o_retry: failed 0.00219389, trying alternate 1
+p_s_o_retry: failed 0.00152878, trying alternate 1
+p_s_o_retry: failed 0.00218983, trying alternate 1
+p_s_o_retry: failed 0.00303861, trying alternate 1
+p_s_o_retry: failed 0.0042951, trying alternate 1
+p_s_o_retry: failed 0.0064647, trying alternate 1
+p_s_o_retry: failed 0.00129831, trying alternate 1
+p_s_o_retry: failed 0.00302486, trying alternate 1
+p_s_o_retry: failed 0.00483978, trying alternate 1
+p_s_o_retry: failed 0.00659229, trying alternate 1
+p_s_o_retry: failed 0.00088735, trying alternate 1
+p_s_o_retry: failed 0.00303639, trying alternate 1
+p_s_o_retry: failed 0.00431622, trying alternate 1
+p_s_o_retry: failed 0.00647916, trying alternate 1
+p_s_o_retry: failed 0.00128707, trying alternate 1
+p_s_o_retry: failed 0.014963, trying alternate 1
+p_s_o_retry: failed 0.000481029, trying alternate 1
+p_s_o_retry: failed 0.000738862, trying alternate 1
+p_s_o_retry: failed 0.000833399, trying alternate 1
+p_s_o_retry: failed 0.00129893, trying alternate 1
+p_s_o_retry: failed 0.000215317, trying alternate 2
+p_s_o_retry: failed 0.00150721, trying alternate 1
+p_s_o_retry: failed 0.00285424, trying alternate 1
+p_s_o_retry: failed 0.000817604, trying alternate 1
+p_s_o_retry: failed 0.00127918, trying alternate 1
+p_s_o_retry: failed 0.00147992, trying alternate 1
+p_s_o_retry: failed 0.00280762, trying alternate 1
+p_s_o_retry: failed 0.0055863, trying alternate 1
+p_s_o_retry: failed 0.000517148, trying alternate 1
+p_s_o_retry: failed 0.00238549, trying alternate 1
+p_s_o_retry: failed 0.0030396, trying alternate 1
+p_s_o_retry: failed 0.00488352, trying alternate 1
+p_s_o_retry: failed 0.00661972, trying alternate 1
+p_s_o_retry: failed 0.000877763, trying alternate 1
+p_s_o_retry: failed 0.0106986, trying alternate 1
+p_s_o_retry: failed 0.0025867, trying alternate 1
+p_s_o_retry: failed 0.000716624, trying alternate 1
+p_s_o_retry: failed 0.00129574, trying alternate 1
+p_s_o_retry: failed 0.00245199, trying alternate 1
+p_s_o_retry: failed 0.00488067, trying alternate 1
+p_s_o_retry: failed 0.0150273, trying alternate 1
+p_s_o_retry: failed 0.00259882, trying alternate 1
+p_s_o_retry: failed 0.000723589, trying alternate 1
+p_s_o_retry: failed 0.00130637, trying alternate 1
+p_s_o_retry: failed 0.0024703, trying alternate 1
+p_s_o_retry: failed 0.0157708, trying alternate 1
+p_s_o_retry: failed 0.00156516, trying alternate 1
+p_s_o_retry: failed 0.000660425, trying alternate 1
+p_s_o_retry: failed 0.000819474, trying alternate 1
+p_s_o_retry: failed 0.00118047, trying alternate 1
+p_s_o_retry: failed 0.00153798, trying alternate 1
+p_s_o_retry: failed 0.00220919, trying alternate 1
+p_s_o_retry: failed 0.010233, trying alternate 1
+p_s_o_retry: failed 0.00490715, trying alternate 1
+p_s_o_retry: failed 0.01026, trying alternate 1
+p_s_o_retry: failed 0.00309438, trying alternate 1
+p_s_o_retry: failed 0.00060063, trying alternate 1
+p_s_o_retry: failed 0.000660552, trying alternate 1
+p_s_o_retry: failed 0.000902405, trying alternate 1
+p_s_o_retry: failed 0.0010856, trying alternate 1
+p_s_o_retry: failed 0.00122118, trying alternate 1
+p_s_o_retry: failed 0.00206964, trying alternate 1
+p_s_o_retry: failed 0.00239392, trying alternate 1
+p_s_o_retry: failed 0.00419548, trying alternate 1
+p_s_o_retry: failed 0.00502537, trying alternate 1
+p_s_o_retry: failed 0.00306103, trying alternate 1
+p_s_o_retry: failed 0.00652227, trying alternate 1
+p_s_o_retry: failed 0.00129501, trying alternate 1
+p_s_o_retry: failed 0.00559222, trying alternate 1
+p_s_o_retry: failed 0.00052142, trying alternate 1
+p_s_o_retry: failed 0.000605664, trying alternate 1
+p_s_o_retry: failed 0.000664858, trying alternate 1
+p_s_o_retry: failed 0.000909073, trying alternate 1
+p_s_o_retry: failed 0.00109355, trying alternate 1
+p_s_o_retry: failed 0.00122888, trying alternate 1
+p_s_o_retry: failed 0.0020839, trying alternate 1
+p_s_o_retry: failed 0.000428948, trying alternate 1
+p_s_o_retry: failed 0.000471525, trying alternate 1
+p_s_o_retry: failed 0.00072693, trying alternate 1
+p_s_o_retry: failed 0.00223296, trying alternate 1
+p_s_o_retry: failed 0.00309376, trying alternate 1
+p_s_o_retry: failed 0.00439971, trying alternate 1
+p_s_o_retry: failed 0.00661051, trying alternate 1
+p_s_o_retry: failed 0.00129235, trying alternate 1
+p_s_o_retry: failed 0.0153014, trying alternate 1
+p_s_o_retry: failed 0.00497003, trying alternate 1
+p_s_o_retry: failed 0.0104403, trying alternate 1
+p_s_o_retry: failed 0.0030816, trying alternate 1
+p_s_o_retry: failed 0.000432023, trying alternate 1
+p_s_o_retry: failed 0.00240777, trying alternate 1
+p_s_o_retry: failed 0.00421962, trying alternate 1
+p_s_o_retry: failed 0.00504929, trying alternate 1
+p_s_o_retry: failed 0.00914525, trying alternate 1
+p_s_o_retry: failed 0.0114368, trying alternate 1
+p_s_o_retry: failed 0.000678833, trying alternate 1
+p_s_o_retry: failed 0.000795074, trying alternate 1
+p_s_o_retry: failed 0.000684181, trying alternate 1
+p_s_o_retry: failed 0.000801285, trying alternate 1
+p_s_o_retry: failed 0.00124997, trying alternate 1
+p_s_o_retry: failed 0.00151859, trying alternate 1
+p_s_o_retry: failed 0.00241251, trying alternate 1
+p_s_o_retry: failed 0.00307129, trying alternate 1
+p_s_o_retry: failed 0.00495272, trying alternate 1
+p_s_o_retry: failed 0.00259259, trying alternate 1
+p_s_o_retry: failed 0.00072846, trying alternate 1
+p_s_o_retry: failed 0.00131691, trying alternate 1
+p_s_o_retry: failed 0.00249459, trying alternate 1
+p_s_o_retry: failed 0.00123869, trying alternate 1
+p_s_o_retry: failed 0.00150512, trying alternate 1
+p_s_o_retry: failed 0.00150307, trying alternate 1
+p_s_o_retry: failed 0.00238374, trying alternate 1
+p_s_o_retry: failed 0.00670353, trying alternate 1
+p_s_o_retry: failed 0.000876636, trying alternate 1
+p_s_o_retry: failed 0.0108989, trying alternate 1
+p_s_o_retry: failed 0.0160226, trying alternate 1
+p_s_o_retry: failed 0.00156317, trying alternate 1
+p_s_o_retry: failed 0.00066521, trying alternate 1
+p_s_o_retry: failed 0.000825529, trying alternate 1
+p_s_o_retry: failed 0.00119091, trying alternate 1
+p_s_o_retry: failed 0.00155103, trying alternate 1
+p_s_o_retry: failed 0.000474172, trying alternate 1
+p_s_o_retry: failed 0.000731206, trying alternate 1
+p_s_o_retry: failed 0.000821826, trying alternate 1
+p_s_o_retry: failed 0.001286, trying alternate 1
+p_s_o_retry: failed 0.00148652, trying alternate 1
+p_s_o_retry: failed 0.00235343, trying alternate 1
+p_s_o_retry: failed 0.000279636, trying alternate 2
+p_s_o_retry: failed 0.00281792, trying alternate 1
+p_s_o_retry: failed 0.000479057, trying alternate 1
+p_s_o_retry: failed 0.00073833, trying alternate 1
+p_s_o_retry: failed 0.00285066, trying alternate 1
+p_s_o_retry: failed 0.00566898, trying alternate 1
+p_s_o_retry: failed 0.00052603, trying alternate 1
+p_s_o_retry: failed 0.000611129, trying alternate 1
+p_s_o_retry: failed 0.000672062, trying alternate 1
+p_s_o_retry: failed 0.000918174, trying alternate 1
+p_s_o_retry: failed 0.00110474, trying alternate 1
+p_s_o_retry: failed 0.00124203, trying alternate 1
+p_s_o_retry: failed 0.00210836, trying alternate 1
+p_s_o_retry: failed 0.00243562, trying alternate 1
+p_s_o_retry: failed 0.00427896, trying alternate 1
+p_s_o_retry: failed 0.00511347, trying alternate 1
+p_s_o_retry: failed 0.00930065, trying alternate 1
+p_s_o_retry: failed 0.0116061, trying alternate 1
+p_s_o_retry: failed 0.000830253, trying alternate 1
+p_s_o_retry: failed 0.00130028, trying alternate 1
+p_s_o_retry: failed 0.00236853, trying alternate 1
+p_s_o_retry: failed 0.000435737, trying alternate 1
+Position error (m): 7.00e-04 RMS, 2.32e-03 max.
+Orientation error (radians): 7.52e-03 RMS, 1.90e-02 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_concentric_hr_cal'
+              variant: 'default'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 1
+        pose_solution: 'kim18'
+Position error (m): 2.83e-02 RMS, 7.38e-02 max.
+Orientation error (radians): 3.51e-01 RMS, 9.99e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_concentric_hr_cal'
+              variant: 'nocorrect'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 0
+        pose_solution: 'kim18'
+Position error (m): 2.83e-02 RMS, 7.38e-02 max.
+Orientation error (radians): 3.51e-01 RMS, 9.99e-01 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_concentric_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'kim18'
+Position error (m): 1.55e-01 RMS, 5.32e-01 max.
+Orientation error (radians): 1.20e+00 RMS, 3.13e+00 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_concentric_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'kim18'
+Position error (m): 1.55e-01 RMS, 5.32e-01 max.
+Orientation error (radians): 1.20e+00 RMS, 3.13e+00 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_concentric_hr_cal'
+              variant: 'default'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 1
+        pose_solution: 'kim18'
+Position error (m): 3.88e-02 RMS, 1.23e-01 max.
+Orientation error (radians): 4.82e-01 RMS, 1.62e+00 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_concentric_hr_cal'
+              variant: 'nocorrect'
+             in_files: {'soYoutZup_seYoutZup_ld.dat'  'soYoutZup_seZinYup_ld.dat'  'soYoutZup_seZinXdown_ld.dat'}
+    linear_correction: 0
+        pose_solution: 'kim18'
+Position error (m): 3.88e-02 RMS, 1.23e-01 max.
+Orientation error (radians): 4.82e-01 RMS, 1.62e+00 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_concentric_hr_cal'
+              variant: 'source fix'
+             in_files: {1×4 cell}
+    linear_correction: 1
+        pose_solution: 'kim18'
+Position error (m): 1.42e-01 RMS, 4.77e-01 max.
+Orientation error (radians): 1.17e+00 RMS, 3.14e+00 max
+
+Checking from: C:\Users\robma\Documents\Work\ilemt_cal_data\cal_9_1_premo_rotated_dipole
+             cal_file: 'XYZ_all_concentric_hr_cal'
+              variant: 'sf nocorrect'
+             in_files: {1×4 cell}
+    linear_correction: 0
+        pose_solution: 'kim18'
+Position error (m): 1.42e-01 RMS, 4.77e-01 max.
+Orientation error (radians): 1.17e+00 RMS, 3.14e+00 max
+
+trans_rms:
+                                  <strong>default</strong>      <strong>nocorrect</strong>     <strong>source fix</strong>    <strong>sf nocorrect</strong>
+                                 <strong>__________</strong>    <strong>__________</strong>    <strong>__________</strong>    <strong>____________</strong>
+    <strong>XYZ_hr_cal               </strong>    0.00020112    0.00032201     0.0017585     0.0013784  
+    <strong>XYZ_all_hr_cal           </strong>    0.00044517      0.000431    0.00067972     0.0007002  
+    <strong>XYZ_all_skew_hr_cal      </strong>    0.00037754      0.000431    0.00074587     0.0007002  
+    <strong>XYZ_concentric_hr_cal    </strong>      0.028259      0.028259       0.15504       0.15504  
+    <strong>XYZ_all_concentric_hr_cal</strong>      0.038753      0.038753       0.14244       0.14244  
+
+trans_max:
+                                  <strong>default</strong>      <strong>nocorrect</strong>     <strong>source fix</strong>    <strong>sf nocorrect</strong>
+                                 <strong>__________</strong>    <strong>__________</strong>    <strong>__________</strong>    <strong>____________</strong>
+    <strong>XYZ_hr_cal               </strong>    0.00046706    0.00082834     0.005107      0.0038672  
+    <strong>XYZ_all_hr_cal           </strong>     0.0011643     0.0011096    0.0020306       0.002316  
+    <strong>XYZ_all_skew_hr_cal      </strong>     0.0010853     0.0011096     0.001925       0.002316  
+    <strong>XYZ_concentric_hr_cal    </strong>      0.073798      0.073798      0.53213        0.53213  
+    <strong>XYZ_all_concentric_hr_cal</strong>       0.12272       0.12272       0.4775         0.4775  
+
+rot_rms:
+                                  <strong>default</strong>     <strong>nocorrect</strong>    <strong>source fix</strong>    <strong>sf nocorrect</strong>
+                                 <strong>_________</strong>    <strong>_________</strong>    <strong>__________</strong>    <strong>____________</strong>
+    <strong>XYZ_hr_cal               </strong>    0.0048879    0.0048879     0.011556       0.011556  
+    <strong>XYZ_all_hr_cal           </strong>    0.0057566    0.0057566    0.0075202      0.0075202  
+    <strong>XYZ_all_skew_hr_cal      </strong>    0.0057566    0.0057566    0.0075202      0.0075202  
+    <strong>XYZ_concentric_hr_cal    </strong>      0.35142      0.35142       1.2032         1.2032  
+    <strong>XYZ_all_concentric_hr_cal</strong>      0.48192      0.48192       1.1661         1.1661  
+
+rot_max:
+                                 <strong>default</strong>     <strong>nocorrect</strong>    <strong>source fix</strong>    <strong>sf nocorrect</strong>
+                                 <strong>________</strong>    <strong>_________</strong>    <strong>__________</strong>    <strong>____________</strong>
+    <strong>XYZ_hr_cal               </strong>    0.011176    0.011176      0.030676       0.030676  
+    <strong>XYZ_all_hr_cal           </strong>    0.014476    0.014476      0.019033       0.019033  
+    <strong>XYZ_all_skew_hr_cal      </strong>    0.014476    0.014476      0.019033       0.019033  
+    <strong>XYZ_concentric_hr_cal    </strong>     0.99859     0.99859        3.1327         3.1327  
+    <strong>XYZ_all_concentric_hr_cal</strong>      1.6209      1.6209        3.1401         3.1401  

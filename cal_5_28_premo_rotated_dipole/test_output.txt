@@ -38,21 +38,21 @@ Position error (m): 3.10e-04 RMS, 8.42e-04 max.
 Orientation error (radians): 5.38e-03 RMS, 1.07e-02 max
 
 trans_rms:
-                                                    <strong>default</strong>      <strong>nocorrect</strong> 
-                                                   <strong>__________</strong>    <strong>__________</strong>
-    <strong>../cal_5_25_premo_rotated_dipole/XYZ_hr_cal</strong>    0.00022769    0.00030954
+                                                    default      nocorrect 
+                                                   __________    __________
+    ../cal_5_25_premo_rotated_dipole/XYZ_hr_cal    0.00022769    0.00030954
 
 trans_max:
-                                                    <strong>default</strong>      <strong>nocorrect</strong> 
-                                                   <strong>__________</strong>    <strong>__________</strong>
-    <strong>../cal_5_25_premo_rotated_dipole/XYZ_hr_cal</strong>    0.00049443    0.00084183
+                                                    default      nocorrect 
+                                                   __________    __________
+    ../cal_5_25_premo_rotated_dipole/XYZ_hr_cal    0.00049443    0.00084183
 
 rot_rms:
-                                                    <strong>default</strong>     <strong>nocorrect</strong>
-                                                   <strong>_________</strong>    <strong>_________</strong>
-    <strong>../cal_5_25_premo_rotated_dipole/XYZ_hr_cal</strong>    0.0053111    0.0053796
+                                                    default     nocorrect
+                                                   _________    _________
+    ../cal_5_25_premo_rotated_dipole/XYZ_hr_cal    0.0053111    0.0053796
 
 rot_max:
-                                                   <strong>default</strong>     <strong>nocorrect</strong>
-                                                   <strong>________</strong>    <strong>_________</strong>
-    <strong>../cal_5_25_premo_rotated_dipole/XYZ_hr_cal</strong>    0.010998    0.010745 
+                                                   default     nocorrect
+                                                   ________    _________
+    ../cal_5_25_premo_rotated_dipole/XYZ_hr_cal    0.010998    0.010745 
