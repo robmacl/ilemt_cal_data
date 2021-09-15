@@ -61,8 +61,8 @@ fixturings (test plans).  These are some useful combinations:
 Source fixture files:
 soYoutZup_seYoutZup_source.dat	The home fixture
 soXoutZup_seYoutZup_source.dat	Rotate +90 about Z
+soXoutZup_seYoutZup_ld.dat	" same fixture, different pattern
 soZoutYup_seYoutZup_source.dat	Flip sides so Z is out
-soZoutYup_seYoutZup_ld.dat	" same fixture, different pattern
 soXinYup_seYoutZup_source.dat	Flip and +90 about Z
 
 Source input patterns:
