@@ -11,17 +11,16 @@ cal_runs = {
     {'XYZ_all', 'XYZ_concentric_hr_cal', 'concentric', true, 'correct_mode', 'none'}
     {'XYZ', 'base_calibration'}
     {'XYZ_all', 'XYZ_hr_cal'}
-    {'XYZ_all', 'XYZ_all_hr_cal', 'correct_mode', 'skew', 'out_file', 'XYZ_all_skew_hr_cal'}
+%    {'XYZ_all', 'XYZ_all_hr_cal', 'correct_mode', 'skew', 'out_file', 'XYZ_all_skew_hr_cal'}
     };
 
-cal_runs = {};
+%cal_runs = {};
 
 % cp_runs{:, 1} is the cal_file
 % cp_runs(:, 2:end} are additional options
 cp_runs = {
     {'XYZ_hr_cal'}
     {'XYZ_all_hr_cal'}
-    {'XYZ_all_skew_hr_cal'}
     {'XYZ_concentric_hr_cal', 'pose_solution', 'kim18'}
     {'XYZ_all_concentric_hr_cal', 'pose_solution', 'kim18'}
     };

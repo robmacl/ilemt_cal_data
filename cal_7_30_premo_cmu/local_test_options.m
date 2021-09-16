@@ -14,6 +14,8 @@ cal_runs = {
     {'so_quadrupole_all', 'so_quadrupole_hr_cal'}
     };
 
+cal_runs = {};
+
 % cp_runs{:, 1} is the cal_file
 % cp_runs(:, 2:end} are additional options
 %{'so_quadrupole_reopt_hr_cal'}
