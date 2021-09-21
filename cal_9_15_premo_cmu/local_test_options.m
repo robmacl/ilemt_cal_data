@@ -8,19 +8,20 @@ cal_runs = {
     {'XYZ' 'base_calibration', 'concentric', true}
     {'XYZ_all', 'XYZ_concentric_hr_cal', 'concentric', true, 'data_patterns', {'md'}}
     {'XYZ', 'base_calibration'}
+    {'XYZ', 'XYZ_hr_cal', 'ishigh', false};
     {'XYZ_all', 'XYZ_hr_cal', 'data_patterns', {'md'}}
+
 %    {'so_quadrupole', 'XYZ_hr_cal'}
 % {'so_quadrupole_reopt', 'so_quadrupole_hr_cal'}
 %    {'so_quadrupole_all', 'so_quadrupole_hr_cal'}
     };
-
-cal_runs = {};
 
 % cp_runs{:, 1} is the cal_file
 % cp_runs(:, 2:end} are additional options
 %{'so_quadrupole_reopt_hr_cal'}
 cp_runs = {
     {'XYZ_hr_cal'}
+    {'XYZ_lr_cal', 'ishigh', false}
     {'XYZ_all_hr_cal'}
 %    {'so_quadrupole_all_hr_cal'}
     {'XYZ_concentric_hr_cal', 'pose_solution', 'kim18'}
