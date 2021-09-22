@@ -1,0 +1,5 @@
+Lots of different data with CMU concentric cube source and Premo sensor.
+Source and sensor fixtures, axis sweeps.  Both 'md' and 'ld' in all source fixtures.
+
+BEWARE: there are some sign flips, probably due to reference calibration in
+the wrong pose.  See local_cal_options.m.
