@@ -5,3 +5,6 @@ first data with continuous source off-axis compensation.
 The performance of the dipole source with source fixtures is poor, but
 this seems to be a real effect.  Repeated collection
 cal_9_24_premo_rotated_dipole gives very similar results.
+
+This dataset is used for the linearity test in the calibration paper,
+since cal_9_24_premo_rotated_dipole does not have the axis sweeps.
