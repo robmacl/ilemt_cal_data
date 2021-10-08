@@ -1,0 +1,9 @@
+Yet another try at premo rotated_dipole data, this time just the 'md' 'ld' in
+the 6 source and sensor fixtures, no 'sweep' or 'source'.
+
+I note that in the soZoutYup the cable comes out at the front of the source
+fixture, toward the sensor, and there is considerable influence of the source
+cable lay on the ilemt_ui radial position.  There was also ~45 um radial drift
+during the 'ld' collection in that fixture, perhaps due to cable droop.  For
+the others, the ilemt_ui drift was <10 um.
+
