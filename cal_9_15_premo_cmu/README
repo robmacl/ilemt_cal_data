@@ -3,3 +3,6 @@ Source and sensor fixtures, axis sweeps.  Both 'md' and 'ld' in all source fixtu
 
 BEWARE: there are some sign flips, probably due to reference calibration in
 the wrong pose.  See local_cal_options.m.
+
+This is the dataset used in the calibration paper for the "concentric"
+source.

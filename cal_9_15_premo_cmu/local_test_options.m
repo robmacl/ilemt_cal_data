@@ -29,6 +29,12 @@ cal_runs = {
 
     {'XYZ', 'so_fixture_all_hr_cal'}
     {'XYZ_all', 'XYZ_hr_cal'}
+    
+    {'Z_only', 'so_fixture_all_hr_cal', 'out_file', 'output/trans_only_hr_cal', ...
+     'optimize',  {'d_so_pos'  'd_so_mo'  'd_se_pos'  'd_se_mo'  'st_fix'}, ...
+     'data_patterns', {'mdtrans'}}
+
+%    {'XYZ', 'XYZ_hr_cal', 'compensate_stage', false, 'out_file', 'output/XYZ_nocomp_hr_cal'}
 
 %    {'XYZ', 'XYZ_hr_cal', 'ishigh', false, 'concentric', true};
 %    {'XYZ', 'XYZ_hr_cal', 'ishigh', false}
@@ -48,6 +54,8 @@ cp_runs = {
     {'XYZ_all_concentric_hr_cal', 'pose_solution', 'kim18'}
 %    {'XYZ_lr_cal', 'ishigh', false}
 %    {'XYZ_all_lr_cal', 'ishigh', false}
+    {'trans_only_hr_cal'}
+%    {'XYZ_nocomp_hr_cal', 'compensate_stage', false}
     };
 
 % Options for the "source fixture" variant.
@@ -59,7 +67,12 @@ cp_variants = {
     'nocorrect' {'linear_correction', false}
     'source fix' sf_options
     'sf nocorrect' {sf_options{:}, 'linear_correction', false}
+    'trans only noc' {'sensor_fixtures', {'seYoutZup'}, 'data_patterns', {'ldtrans'}, ...
+                     'linear_correction', false}
+    };
+
+%{
     'sfnp noZout' {'source_fixtures', {'soYoutZup' 'soXoutZup' 'soXinYup'}, ...
                    'linear_correction', false, ...
                    'true_initial', true}
-    };
+%}

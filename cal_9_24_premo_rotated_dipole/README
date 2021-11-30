@@ -7,3 +7,5 @@ cable lay on the ilemt_ui radial position.  There was also ~45 um radial drift
 during the 'ld' collection in that fixture, perhaps due to cable droop.  For
 the others, the ilemt_ui drift was <10 um.
 
+This is the "dipole approximating" dataset used for position accuracy
+in the calibration paper (but not for the linearity test).
