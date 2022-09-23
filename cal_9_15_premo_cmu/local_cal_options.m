@@ -19,6 +19,4 @@ options.source_signs = {
     'soZoutYup_seYoutZup_(md|ld).dat' [-1 -1 1]
     'soXoutZup_seYoutZup_md.dat' [-1 -1 1]
     };
-
-    
     

@@ -1,4 +1,4 @@
-%% local test definitions, included by test_script.m
+%% local test definitions, included by testing/run_tests.m
 
 % {cal_mode base_calibration option*}
 % 
@@ -36,9 +36,9 @@ cal_runs = {
 
 %    {'XYZ', 'XYZ_hr_cal', 'compensate_stage', false, 'out_file', 'output/XYZ_nocomp_hr_cal'}
 
-%    {'XYZ', 'XYZ_hr_cal', 'ishigh', false, 'concentric', true};
-%    {'XYZ', 'XYZ_hr_cal', 'ishigh', false}
-%    {'XYZ_all', 'XYZ_lr_cal', 'ishigh', false}
+    {'XYZ', 'XYZ_hr_cal', 'ishigh', false, 'concentric', true};
+    {'XYZ', 'XYZ_hr_cal', 'ishigh', false}
+    {'XYZ_all', 'XYZ_lr_cal', 'ishigh', false}
 
 %    {'so_quadrupole', 'XYZ_hr_cal'}
 % {'so_quadrupole_reopt', 'so_quadrupole_hr_cal'}
@@ -48,13 +48,14 @@ cal_runs = {
 % cp_runs{:, 1} is the cal_file
 % cp_runs(:, 2:end} are additional options
 cp_runs = {
-    {'XYZ_hr_cal'}
-    {'XYZ_all_hr_cal'}
-    {'XYZ_concentric_hr_cal', 'pose_solution', 'kim18'}
-    {'XYZ_all_concentric_hr_cal', 'pose_solution', 'kim18'}
-%    {'XYZ_lr_cal', 'ishigh', false}
+%    {'XYZ_hr_cal'}
+%    {'XYZ_all_hr_cal'}
+%    {'XYZ_concentric_hr_cal', 'pose_solution', 'kim18'}
+%    {'XYZ_all_concentric_hr_cal', 'pose_solution', 'kim18'}
+    {'XYZ_lr_cal', 'ishigh', false}
 %    {'XYZ_all_lr_cal', 'ishigh', false}
-    {'trans_only_hr_cal'}
+    {'XYZ_concentric_lr_cal', 'ishigh', false, 'pose_solution', 'kim18'}
+%    {'trans_only_hr_cal'}
 %    {'XYZ_nocomp_hr_cal', 'compensate_stage', false}
     };
 
@@ -65,13 +66,13 @@ sf_options = {'source_fixtures', {'soYoutZup' 'soXoutZup' 'soZoutYup' 'soXinYup'
 cp_variants = {
     'default' {}
     'nocorrect' {'linear_correction', false}
+    };
+
+%{
     'source fix' sf_options
     'sf nocorrect' {sf_options{:}, 'linear_correction', false}
     'trans only noc' {'sensor_fixtures', {'seYoutZup'}, 'data_patterns', {'ldtrans'}, ...
                      'linear_correction', false}
-    };
-
-%{
     'sfnp noZout' {'source_fixtures', {'soYoutZup' 'soXoutZup' 'soXinYup'}, ...
                    'linear_correction', false, ...
                    'true_initial', true}
