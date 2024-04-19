@@ -1,0 +1,11 @@
+cal_9_15_premo_cmu:
+This is the dataset used in the calibration paper for the "concentric"
+source.
+
+cal_9_16_premo_rotated_dipole:
+This dataset is used for the linearity test in the calibration paper,
+since cal_9_24_premo_rotated_dipole does not have the axis sweeps.
+
+cal_9_24_premo_rotated_dipole:
+This is the "dipole approximating" dataset used for position accuracy
+in the calibration paper (but not for the linearity test).

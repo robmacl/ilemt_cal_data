@@ -1,28 +1,41 @@
 File name format is:
     so<mapping>_se<mapping>_<other stuff>.dat
 
-The mapping is from the from fixed fixture axes to the moving part of the
-fixture (the "mover").  The fixture and mover axes are aligned in the fixture
-null pose.  The fixture axes are also nominally aligned with the stage axes,
-although misalignment in source->stage is absorbed into the stage fixture
-transform.
+When fixturing the source and sensor we introduce various 90 degree rotations.
+Rather than representing this using roll/pitch/yaw etc., which are quite
+confusing when there are large rotations, we describe this rotation by which
+axes in the two coordinate systems are aligned with each other.
+
+The mapping is from the fixture axes to the moving part of the fixture (the
+"mover").  The fixture and mover axes are (by definition) aligned in the
+fixture null pose. For simplicity we also set up the source and sensor
+fixtures and the stage so that they are all nominally aligned when the stage
+is in its home position.  Misalignment in source->stage is absorbed into the
+stage fixture transform.  There is a nominal Y offset of (say) 200mm between
+the source and the sensor workspace, which is also included in the stage
+fixture transform.
 
 The term "mover" reminds us that these are the axes of the moving part of the
-fixture, which are are *not* aligned with either the source or sensor axes.
-This large mismatch is absorbed into the source and sensor fixture transforms.
+fixture, which are *not* in general aligned with the source (or sensor) axes.
+For example, although the source is fixed to the source mover, the source may
+be mounted so that it is deliberately rotated away from source mover
+coordinates alignment.  This is done with the dipole approximating source.
+This large mismatch is absorbed into the source (or sensor) fixture
+transforms.
 
 Representation of the axis mapping:
  -- "out" is a synonym for fixture +Y, which is always in the direction from
     source to sensor in the standard stage setup.  
  -- "up" is a synonym for fixture +Z, which is always physically "up", toward
     the ceiling.
- -- We represent the axis mapping by which mover axis is "out" and
+ -- We name the axis mapping using by the mover axes that are "out" and
     "up".  If the out/up axis is negative, then we use in/down.
  -- out/in always comes before up/down.  So YoutZup, YinZup, etc.
 
 
 The idea is that you can look at the setup and quickly tell whether the setup
-is correct by looking at which mover axes are out and up.
+is correct by looking at which mover axes are out and up.  This is clearer
+visually than it seems described here, see picture in the calibration paper.
 
 An example of the mapping ZoutYup:
 	Fixture		Mover
@@ -61,7 +74,7 @@ fixturings (test plans).  These are some useful combinations:
 Source fixture files:
 soYoutZup_seYoutZup_source.dat	The home fixture
 soXoutZup_seYoutZup_source.dat	Rotate +90 about Z
-soXoutZup_seYoutZup_ld.dat	" same fixture, different pattern
+soXoutZup_seYoutZup_ld.dat	" same fixture, different data points
 soZoutYup_seYoutZup_source.dat	Flip sides so Z is out
 soXinYup_seYoutZup_source.dat	Flip and +90 about Z
 
