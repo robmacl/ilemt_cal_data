@@ -69,7 +69,9 @@ ________________________________________________________________
 
 
 For the calibration and test procedures we need multiple files in various
-fixturings (test plans).  These are some useful combinations:
+fixturings (test plans).  We don't do the full cross product of source and
+sensor moves (to save time) so we can divide into source and sensor fixture
+moves. One moves and the other is held fixed. These are some useful combinations:
 
 Source fixture files:
 soYoutZup_seYoutZup_source.dat	The home fixture
