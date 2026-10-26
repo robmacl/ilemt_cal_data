@@ -1,14 +1,18 @@
 % Local calibration options for the EMOTO XYZ+Ry stage setup ("smol").
-% See bootstrap_smol.m for how to get from nothing to a calibration.
+% From nothing: bootstrap_smol() makes base_smol.mat, then run_tests() does
+% the calibrations and tests in local_test_options.m.
 options.source = 'emoto';
 options.sensor = 'premo_3dv09';
 
 % Source mover is ZoutYup so that the source is aligned with the sensor.  The
 % sensor is mounted on the boom with Z out and Y up, so it is also ZoutYup.
-% 'smol' is the +/-20 mm XYZ x {-45 0 45} Ry grid.
+% Patterns:
+%  'smol': +/-20 mm XYZ (3^3) x Ry {-45 0 45}, 86 points (2026-10-17)
+%  'ld':   +/-20 mm XYZ (5^3) x Ry {-90 -45 0 45 90}, 632 points (2026-10-25)
+% Calibrate from ld; smol is the test data (see local_check_options.m).
 options.source_fixtures = {'soZoutYup'};
 options.sensor_fixtures = {'seZoutYup'};
-options.data_patterns = {'smol'};
+options.data_patterns = {'ld'};
 
 % compensate_stage() tables are for the old 200 mm XYZRz stage.
 options.compensate_stage = false;
@@ -24,10 +28,6 @@ options.compensate_stage = false;
 options.optimize = {'d_so_pos' 'd_so_mo' 'd_se_pos' 'd_se_mo' 'st_fix' 'se_fix'};
 options.freeze = {'d_so_z_gain' 'd_so_y_co' 'd_se_y_co' 'z_se_fix'};
 
-% check_poses() has not been tried on this setup yet, so skip the output
-% correction (which uses it).
-options.correct_mode = 'none';
-
 % PROVISIONAL sign fix.  Taken as-is, the data only fits with mirrored
 % (left-handed) coil frames: the Y moments of both source and sensor come out
 % negative.  That is what an odd number of sensor input sign errors looks
@@ -37,5 +37,6 @@ options.correct_mode = 'none';
 % translation sign plus the Ry sign) would look the same.  Check the hardware
 % with the freehand sign test, then fix the ilemt_ui input signs and drop
 % this for new data.
-options.source_signs = {'_smol\.dat' [1 -1 1]};
-options.sensor_signs = {'_smol\.dat' [1 -1 1]};
+% All the data in this directory was taken with the same hardware setup.
+options.source_signs = {'\.dat$' [1 -1 1]};
+options.sensor_signs = {'\.dat$' [1 -1 1]};

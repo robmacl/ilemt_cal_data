@@ -1,11 +1,11 @@
 function [cal] = bootstrap_smol (varargin)
-% Calibrate the EMOTO XYZ+Ry ("smol") setup starting from nothing.  Run with
-% this directory as cwd.  Any arguments are key/value option overrides
-% passed to both calibrate_main() calls, eg. bootstrap_smol('verbose', 1).
+% Make the initial calibration base_smol.mat for the EMOTO XYZ+Ry ("smol")
+% setup from the nominal geometry.  Run with this directory as cwd.  Any
+% arguments are key/value overrides for calibrate_options().
 %
-% 1. Build output/base_smol.mat from the nominal geometry.
-% 2. Concentric calibration -> output/smol_concentric_hr_cal.mat
-% 3. Dipole calibration from that -> output/smol_dipole_hr_cal.mat
+% base_smol.mat is kept here rather than in output/ so that
+% run_tests('clean') doesn't delete it.  Then run_tests() does the
+% calibrations and tests, see local_test_options.m.
 %
 % Nominal geometry at stage home (Ry = 0):
 %  - Sensor axes in stage coordinates: sensor Z -> stage +Y, sensor Y ->
@@ -17,14 +17,6 @@ function [cal] = bootstrap_smol (varargin)
 %    all the fixture transforms are nominally identity rotations.
 %  - Ry is about stage Y (the line of sight), and the sensor is close to the
 %    Ry axis, so the sensor fixture translation is ~0.
-
-if (~exist('output', 'dir'))
-  mkdir output;
-end
-
-if (isempty(gcp('nocreate')))
-  parpool('Processes', 8);
-end
 
 dist = 0.055;
 
@@ -61,24 +53,10 @@ so_motion = vector2tr(motions(home_ix, 1:6));
 assert(norm(so_motion(1:3, 1:3) - R_axes) < 1e-12);
 se_motion = vector2tr(motions(home_ix, 7:12));
 assert(norm(se_motion(1:3, 1:3) - R_axes) < 1e-12);
-P =so_motion * pose2trans(cal.stage_fixture) * se_motion * pose2trans(cal.sensor_fixture);
+P = so_motion * pose2trans(cal.stage_fixture) * se_motion * pose2trans(cal.sensor_fixture);
 pred = forward_kinematics(P, cal);
 cal.d_sensor_moment = diag(diag(measured) ./ diag(pred));
 
 res = calibrate_objective(calibration2state(cal), motions, couplings, options);
 fprintf(1, 'Initial sum square residue: %.4f\n', sum(res(:).^2));
-save_calibration(cal, 'output/base_smol.mat');
-
-calibrate_main('default', 'base_calibration', 'output/base_smol', ...
-               'concentric', true, ...
-               'out_file', 'output/smol_concentric_hr_cal', varargin{:});
-
-cal = calibrate_main('default', 'base_calibration', 'output/smol_concentric_hr_cal', ...
-                     'out_file', 'output/smol_dipole_hr_cal', varargin{:});
-
-% With correct signs all the coil gains should be positive.
-gains = [diag(cal.d_source_moment)' diag(cal.d_sensor_moment)'];
-if (any(gains < 0))
-  fprintf(1, ['Warning: negative coil gains [%s], probably a sign problem, ' ...
-              'see local_cal_options.m\n'], num2str(gains, ' %.3g'));
-end
+save_calibration(cal, 'base_smol.mat');
