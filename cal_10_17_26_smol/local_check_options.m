@@ -5,7 +5,8 @@
 % variant in local_test_options.m.
 options.in_files = {'soZoutYup_seZoutYup_smol.dat'};
 
-options.cal_file = 'ld_dipole_hr_cal';
+% Octupole + sensor anisotropy + stage Y scale model, see local_test_options.m.
+options.cal_file = 'ld_oct_hr_cal';
 
 % Initialize the 'optimize' pose solution with Kim18 using the concentric
 % calibration.  Without this, some poses converge to wrong local minima

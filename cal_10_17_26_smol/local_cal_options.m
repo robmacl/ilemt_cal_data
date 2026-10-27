@@ -25,6 +25,8 @@ options.compensate_stage = false;
 %    seZoutYup the stage Y axis is se_fix Z, so freeze z_se_fix.  (With
 %    seYoutZup it would be y_se_fix.  Freezing the wrong one lets the fit run
 %    away along the redundant direction.)
+% This is the dipole model.  The octupole calibration in local_test_options.m
+% overrides optimize.
 options.optimize = {'d_so_pos' 'd_so_mo' 'd_se_pos' 'd_se_mo' 'st_fix' 'se_fix'};
 options.freeze = {'d_so_z_gain' 'd_so_y_co' 'd_se_y_co' 'z_se_fix'};
 
